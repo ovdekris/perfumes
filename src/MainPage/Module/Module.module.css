@@ -5,17 +5,25 @@
     background-color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .button{
-    justify-content: flex-end;
-    width: 80px;
-    height: 50px;
-    background-color: white;
-    margin-left: 100px;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+.button:before, .button:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background: #FC46AA;}
+.button:before {
+    transform: rotate(45deg);
+}
+.button:after {
+    transform: rotate(-45deg);
 }
 .description{
-    color: white;
-}
-.paragraph{
     color: white;
 }
