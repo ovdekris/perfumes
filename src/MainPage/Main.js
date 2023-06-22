@@ -10,6 +10,7 @@ function Main(){
         <div>
             {openModule && <Module open={openModule} setOpenModule={setOpenModule}/>}
             <Header/>
+
         </div>
     )
 }
