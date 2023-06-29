@@ -41,7 +41,7 @@
 }
 /*content menu*/
 .content__menu{
-    max-width: 1180px;
+    max-width: 1280px;
     margin: 20px auto 0 auto;
 }
 .content__menu__items{
@@ -63,4 +63,22 @@
 .content__menu__items li>a:hover{
     border-bottom: 3px solid #FC46AA;
     transition: 0.3s;
+}
+/*media query*/
+@media (min-width: 769px )  and (max-width:1280px) {
+    .content{
+        padding: 10px 1.5rem 0 1.5rem;
+    }
+    .content__menu{
+        padding: 0 1.5rem 0 1.5rem;
+    }
+    .content__menu__items li>a{
+        font-size: 16px;
+    }
+    .container{
+        height: 12vh;
+    }
+}
+@media (min-width: 321px) and (max-width:768px)  {
+    
 }
