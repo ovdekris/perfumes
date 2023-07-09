@@ -6,6 +6,9 @@ function Header(){
     return (<>
         <div className={style.container}>
             <div className={style.content}>
+                <div className={style.burger}>
+                    <span></span>
+                </div>
                 <div className={style.content__search} >
                     <input type="text" placeholder="What are you search?"/>
                 </div>

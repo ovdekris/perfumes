@@ -64,6 +64,9 @@
     border-bottom: 3px solid #FC46AA;
     transition: 0.3s;
 }
+.burger{
+    display: none;
+}
 /*media query*/
 @media (min-width: 769px )  and (max-width:1280px) {
     .content{
@@ -79,6 +82,34 @@
         height: 12vh;
     }
 }
-@media (min-width: 321px) and (max-width:768px)  {
-    
+@media (max-width:768px)  {
+    .burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+    .burger:after, .burger:before{
+        content: "";
+        background-color: black;
+        height: 3px;
+        position: absolute;
+        width: 30px;
+        left: 0;
+    }
+    .burger:before{
+        top:0;
+    }
+    .burger:after{
+        bottom:0;
+    }
+    .burger span{
+        background-color: black;
+        height: 3px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 8px;
+    }
+
 }
