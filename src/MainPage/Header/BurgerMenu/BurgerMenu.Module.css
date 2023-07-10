@@ -1,0 +1,9 @@
+.container{
+    width: 200px;
+    height: 100vh;
+    background-color: #FC46AA;
+    transform: translateX(-100%);
+}
+.container.active{
+    transform: translateX(0);
+}

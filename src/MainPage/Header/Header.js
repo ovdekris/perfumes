@@ -1,13 +1,16 @@
 import style from "./Header.module.css"
-import React from "react";
+import React, {useState} from "react";
 import logo from "./logo-2.png";
 import {BiBasket, BiHeart, BiUser} from "react-icons/bi";
+import BurgerMenu from "./BurgerMenu/BurgerMenu";
 function Header(){
+    const[menuActive, setMenuActive]=useState(false)
     return (<>
         <div className={style.container}>
             <div className={style.content}>
-                <div className={style.burger}>
+                <div className={style.burger} onClick={()=>{setMenuActive(!menuActive)}}>
                     <span></span>
+                    <BurgerMenu active={menuActive} setActive={setMenuActive}/>
                 </div>
                 <div className={style.content__search} >
                     <input type="text" placeholder="What are you search?"/>
