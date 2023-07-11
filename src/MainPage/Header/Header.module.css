@@ -64,7 +64,7 @@
     border-bottom: 3px solid #FC46AA;
     transition: 0.3s;
 }
-.burger{
+.burger, .burger_container{
     display: none;
 }
 /*media query*/
@@ -88,6 +88,13 @@
     }
     .content__menu{
         display: none;
+    }
+    .burger_container{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
     }
     .burger{
         display: block;

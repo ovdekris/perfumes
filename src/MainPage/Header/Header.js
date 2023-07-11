@@ -8,8 +8,10 @@ function Header(){
     return (<>
         <div className={style.container}>
             <div className={style.content}>
+                <div className={style.burger_container}>
                 <div className={style.burger} onClick={()=>{setMenuActive(!menuActive)}}>
                     <span></span>
+                </div>
                     <BurgerMenu active={menuActive} setActive={setMenuActive}/>
                 </div>
                 <div className={style.content__search} >
@@ -49,6 +51,7 @@ function Header(){
                 </menu>
             </div>
         </div>
+
         </>
     )
 }

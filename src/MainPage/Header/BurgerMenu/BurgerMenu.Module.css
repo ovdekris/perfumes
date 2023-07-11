@@ -1,9 +1,22 @@
 .container{
-    width: 200px;
-    height: 100vh;
-    background-color: #FC46AA;
+    width: 100vw;
+    height: calc(100% + 100px);
     transform: translateX(-100%);
+    position: fixed;
+    margin-top: -100px;
 }
 .container.active{
     transform: translateX(0);
+}
+.blur{
+    width: 100vw;
+    height: 100%;
+    backdrop-filter: brightness(75%);
+    position: absolute;
+}
+.container__menu{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
 }
