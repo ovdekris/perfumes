@@ -89,12 +89,15 @@
     .content__menu{
         display: none;
     }
+    .image__logo{
+        height: 4vh;
+    }
+    /*burger*/
     .burger_container{
         display: block;
         position: relative;
         width: 30px;
         height: 20px;
-        cursor: pointer;
     }
     .burger{
         display: block;
