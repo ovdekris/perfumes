@@ -21,9 +21,9 @@ function Header(){
                     <img src={logo} alt="logo" className={style.image__logo}/>
                 </div>
                 <div className={style.content__client__part}>
-                    <BiUser  size={28}/>
-                    <BiHeart size={28}/>
-                    <BiBasket size={28}/>
+                    <BiUser className={style.content__client__part__icon}/>
+                    <BiHeart className={style.content__client__part__icon}/>
+                    <BiBasket className={style.content__client__part__icon}/>
                 </div>
             </div>
             <div className={style.content__menu}>

@@ -8,7 +8,7 @@ import Slider from "./Slider/Slider";
 function Main(){
     const [openModule,setOpenModule]=useState(true);
     return(
-        <div>
+        <div className={style.container}>
             {openModule && <Module open={openModule} setOpenModule={setOpenModule}/>}
             <Header/>
             <Slider/>
