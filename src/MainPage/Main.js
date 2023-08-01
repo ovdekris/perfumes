@@ -3,6 +3,7 @@ import style from "./Main.module.css"
 import {useState} from "react";
 import Header from "./Header/Header";
 import Slider from "./Slider/Slider";
+import Category from "./Category/Category";
 
 
 function Main(){
@@ -12,6 +13,7 @@ function Main(){
             {openModule && <Module open={openModule} setOpenModule={setOpenModule}/>}
             <Header/>
             <Slider/>
+            <Category/>
         </div>
     )
 }
