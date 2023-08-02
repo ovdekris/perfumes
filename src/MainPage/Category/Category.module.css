@@ -5,3 +5,8 @@
     display: flex;
     justify-content: space-between;
 }
+@media (min-width: 765px) and  (max-width: 1080px){
+    .container{
+        width: 90vw;
+    }
+}
