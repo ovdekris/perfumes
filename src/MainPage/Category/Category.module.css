@@ -7,6 +7,14 @@
 }
 @media (min-width: 765px) and  (max-width: 1080px){
     .container{
-        width: 90vw;
+        width: 85vw;
     }
+}
+@media (max-width: 764px){
+    .container{
+        width: 90vw;
+       display: grid;
+        grid-template-columns: 48% 48%;
+    }
+
 }
