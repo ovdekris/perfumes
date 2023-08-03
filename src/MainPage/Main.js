@@ -4,6 +4,7 @@ import {useState} from "react";
 import Header from "./Header/Header";
 import Slider from "./Slider/Slider";
 import Category from "./Category/Category";
+import Bestseller from "./Bestseller/Bestseller";
 
 
 function Main(){
@@ -14,6 +15,7 @@ function Main(){
             <Header/>
             <Slider/>
             <Category/>
+            <Bestseller/>
         </div>
     )
 }

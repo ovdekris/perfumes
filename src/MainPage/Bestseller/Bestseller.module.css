@@ -1,0 +1,19 @@
+.container{
+    max-width: 1280px;
+    margin: 30px auto 0 auto;
+}
+.title{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.title__description{
+    font-size: 20px;
+    margin: 0 10px;
+}
+.title__content{
+    width: 150px;
+    height: 2px;
+    background-color: #FC46AA;
+}
