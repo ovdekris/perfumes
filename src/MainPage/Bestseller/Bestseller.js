@@ -1,5 +1,6 @@
 import style from "./Bestseller.module.css";
 import BestsellerItem from "./BestsellerItem";
+import BestsellerItemEven from "./BestsellerItemEven";
 
 function Bestseller(){
     return(<>
@@ -11,8 +12,9 @@ function Bestseller(){
             </div>
         </div>
             <BestsellerItem/>
+            <BestsellerItemEven/>
             <BestsellerItem/>
-            <BestsellerItem/>
+            <BestsellerItemEven/>
         </>
     )
 }
