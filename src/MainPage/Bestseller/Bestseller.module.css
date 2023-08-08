@@ -18,3 +18,21 @@
     height: 2px;
     background-color: #FC46AA;
 }
+@media(min-width: 765px)and (max-width: 1024px){
+    .container{
+        margin-top: -40px;
+    }
+}
+@media (max-width: 764px) {
+    .container{
+        margin-top: 180px;
+        display: flex;
+        justify-content: center;
+    }
+    .title__description{
+        font-size: 20px;
+    }
+    .title__content{
+        width: 25vw;
+    }
+}

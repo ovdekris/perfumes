@@ -63,3 +63,56 @@
 .button:hover{
     border-bottom: 2px solid #FC46AA;
 }
+@media (min-width: 765px) and (max-width: 1024px) {
+    .content{
+        width: 95vw;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .description{
+        max-height:75px;
+    }
+    .description__container{
+        width: 75%;
+        padding: 10px 20px 20px 20px;
+    }
+    .image{
+        height: 40vh;
+    }
+    .background{
+        height: 36vh;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 764px){
+        .image{
+            height: 20vh;
+        }
+        .background{
+            height: 20vh;
+            margin-top: 25px;
+        }
+        .content{
+            width: 98vw;
+        }
+        .title{
+            font-size: 14px;
+            margin-bottom: 8px;
+            max-width: 100%;
+        }
+        .description__container{
+            width: 75%;
+            padding: 5px;
+        }
+        .description{
+            font-size: 12px;
+            max-height: 3.5em;
+            max-width: 100%;
+            margin-bottom: 8px;
+        }
+        .button{
+            font-size: 14px;
+        }
+}
