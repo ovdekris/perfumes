@@ -21,7 +21,7 @@
     position: absolute;
 }
 .image{
-    height: 49vh;
+    height: 45vh;
     cursor: pointer;
     order: 2;
     width: 90vw;
@@ -33,7 +33,7 @@
 }
 .description__container{
     padding: 60px 30px 30px 30px;
-    width: 75%;
+    width: 85%;
     order: 1;
     margin-top: 10%;
 }
@@ -63,7 +63,7 @@
 .button:hover{
     border-bottom: 2px solid #FC46AA;
 }
-@media (min-width: 765px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .content{
         width: 95vw;
     }
@@ -87,16 +87,20 @@
         margin-top: 60px;
     }
 }
-@media (max-width: 764px){
-    .image{
-        height: 20vh;
-    }
-    .background{
-        height: 20vh;
-        margin-top: 25px;
-    }
+
+@media (min-width: 480px) and (max-width: 767px){
     .content{
         width: 98vw;
+    }
+    .container{
+        margin-bottom: 80px;
+    }
+    .image{
+        height: 25vh;
+    }
+    .background{
+        height: 25vh;
+        margin-top: 25px;
     }
     .title{
         font-size: 14px;
@@ -104,14 +108,49 @@
         max-width: 100%;
     }
     .description__container{
-        width: 75%;
-        padding: 5px;
+        width: 80%;
+        padding: 0;
     }
     .description{
         font-size: 12px;
         max-height: 3.5em;
-        max-width: 100%;
+        max-width: 90%;
         margin-bottom: 8px;
+    }
+    .button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 479px){
+    .content{
+        width: 95vw;
+    }
+    .container{
+        margin-bottom: 80px;
+    }
+    .image{
+        margin-top: 10px;
+        height: 20vh;
+    }
+    .background{
+        height: 24vh;
+        margin-top: 25px;
+    }
+    .title{
+        font-size: 14px;
+        margin-bottom: 5px;
+        max-width: 100%;
+    }
+    .description__container{
+        max-width: 90%;
+        padding:10px 0 0 0;
+    }
+    .description{
+        font-size: 12px;
+        max-height: 3.5em;
+        max-width: 90%;
+        margin-bottom: 5px;
     }
     .button{
         font-size: 14px;
