@@ -5,6 +5,7 @@ import Header from "./Header/Header";
 import Slider from "./Slider/Slider";
 import Category from "./Category/Category";
 import Bestseller from "./Bestseller/Bestseller";
+import Footer from "./Footer/Footer";
 
 
 function Main(){
@@ -16,6 +17,7 @@ function Main(){
             <Slider/>
             <Category/>
             <Bestseller/>
+            <Footer/>
         </div>
     )
 }

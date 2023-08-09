@@ -1,0 +1,13 @@
+.container{
+    background-color: #FC46AA;
+    width: 100%;
+    height: 31vh;
+    margin-top: -50px;
+    padding: 20px;
+    display: flex;
+}
+.content{
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 100%;
+}
