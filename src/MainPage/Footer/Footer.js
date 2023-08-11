@@ -25,21 +25,24 @@ function Footer(){
            </div>
             <div className={style.content}>
                 <div className={style.title}>
-                    Contact
+                    INFORMATION ABOUT PERFUME - ONLINE PERFUMERY
                 </div>
                 <div className={style.description}>
                     <div className={style.description__item}>
-                        GLARE PERFUME SP. Z O.O.
+                        Privacy Policy - GDPR
                     </div>
                     <div className={style.description__item}>
                         Office address: MALEWSKI 15,
-                        Poland, Warsaw 02-273
+                        Statute
                     </div>
                     <div className={style.description__item__number}>
-                        Call us at: 568-646-1*8
+                        About us
                     </div>
                     <div className={style.description__item__mail}>
-                        Email: kontaktperfume@gmail.com
+                        Delivery
+                    </div>
+                    <div className={style.description__item__mail}>
+                        Payment methods
                     </div>
                 </div>
             </div>
