@@ -30,12 +30,11 @@ function Footer(){
                 <div className={style.title}>
                     INFORMATION ABOUT PERFUME - ONLINE PERFUMERY
                 </div>
-                <div className={classNames(style.description__item,style.description__item__navigation)}>
-                    <div className={style.description__item}>
+                <div className={style.description__item}>
+                    <div className={classNames(style.description__item,style.description__item__navigation)}>
                         Privacy Policy - GDPR
                     </div>
                     <div className={classNames(style.description__item,style.description__item__navigation)}>
-                        Office address: MALEWSKI 15,
                         Statute
                     </div>
                     <div className={classNames(style.description__item__number,style.description__item__navigation)}>

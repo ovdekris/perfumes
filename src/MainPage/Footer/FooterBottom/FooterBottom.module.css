@@ -3,3 +3,33 @@
     height: 25vh;
     background-color: black;
 }
+.content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.content__newstseller__title{
+    color: white;
+    margin-right: 30px;
+    font-size: 16px;
+}
+.info{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+.content__social{
+    color: white;
+}
+.content__newstseller__item{
+    display: flex;
+    align-items: center;
+}
+.input__item{
+    background-color: white;
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+}
