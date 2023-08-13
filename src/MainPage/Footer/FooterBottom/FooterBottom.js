@@ -1,4 +1,5 @@
 import style from './FooterBottom.module.css';
+import {BiLogoInstagram, BiLogoFacebookCircle} from "react-icons/bi";
 
 function FooterBottom(){
     const titleInput="Your email";
@@ -12,11 +13,13 @@ function FooterBottom(){
                    <div className={style.input__item}>
                    <input type="text" placeholder={titleInput}/>
                        <button>
+                           <i className={style.arrow}></i>
                        </button>
                    </div>
                </div>
                <div className={style.content__social}>
-                    social
+                    <BiLogoInstagram className={style.content__social__item}/>
+                   <BiLogoFacebookCircle className={style.content__social__item}/>
                </div>
            </div>
             <div className={style.info}>

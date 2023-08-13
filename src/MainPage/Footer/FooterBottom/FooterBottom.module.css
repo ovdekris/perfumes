@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    height: 25vh;
+    height: 23vh;
     background-color: black;
 }
 .content{
@@ -18,7 +18,7 @@
 .info{
     color: white;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .content__social{
     color: white;
@@ -32,4 +32,60 @@
     width: 240px;
     height: 40px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.input__item input{
+    width: 80%;
+    border-radius: 5px;
+    height: 100%;
+    outline:none;
+    border: solid white;
+    padding: 10px;
+    font-size: 14px;
+    color: dimgray;
+}
+.input__item input::placeholder{
+    font-size: 12px;
+}
+.input__item button{
+    cursor: pointer;
+    width: 18%;
+    height: 35px;
+    background-color: black;
+    border: solid black;
+}
+.arrow{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.input__item button:hover{
+    background-color: #FC46AA;
+    border: solid #FC46AA;
+}
+.content__social__item{
+    font-size: 24px;
+    margin-left: 20px;
+}
+@media(min-width: 768px)and (max-width: 1024px){
+    .container{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 765px) {
+    .container{
+        padding: 0 30px;
+        max-width: 100%;
+    }
+    .content__newstseller__title{
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .info{
+        margin-top: 25px;
+    }
 }

@@ -11,7 +11,7 @@ function Footer(){
                    Contact
                </div>
                <div className={style.description}>
-                   <div className={style.description__item}>
+                   <div className={style.description__items}>
                        GLARE PERFUME SP. Z O.O.
                    </div>
                    <div className={style.description__item}>
@@ -26,11 +26,11 @@ function Footer(){
                    </div>
                </div>
            </div>
-            <div className={style.content}>
+            <div className={classNames(style.content, style.content__link)}>
                 <div className={style.title}>
                     INFORMATION ABOUT PERFUME - ONLINE PERFUMERY
                 </div>
-                <div className={style.description__item}>
+                <div className={style.description__items}>
                     <div className={classNames(style.description__item,style.description__item__navigation)}>
                         Privacy Policy - GDPR
                     </div>
