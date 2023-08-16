@@ -18,9 +18,9 @@ function Header(){
                 <div className={style.content__search} >
                     <input type="text" placeholder="What are you search?"/>
                 </div>
-                <div className={style.content__logo}>
+                <Link to="/" className={style.content__logo}>
                     <img src={logo} alt="logo" className={style.image__logo}/>
-                </div>
+                </Link>
                 <div className={style.content__client__part}>
                     <BiUser className={style.content__client__part__icon}/>
                     <BiHeart className={style.content__client__part__icon}/>
@@ -34,19 +34,19 @@ function Header(){
                             <Link to="/sale">Sale</Link>
                         </li>
                         <li>
-                            <a href="">For men</a>
+                            <Link to="/forman">For man</Link>
                         </li>
                         <li>
-                            <a href="">For women</a>
+                            <Link to="/forwoman">For woman</Link>
                         </li>
                         <li>
-                            <a href="">Body mist</a>
+                            <Link to="/bodymist">Body mist</Link>
                         </li>
                         <li>
-                            <a href="">Home fragrances</a>
+                            <Link to="/homefragrances">Home fragrances</Link>
                         </li>
                         <li>
-                            <a href="">Signature</a>
+                            <Link to="/signature">Signature</Link>
                         </li>
                     </ul>
                 </menu>
