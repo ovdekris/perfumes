@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import logo from "./logo-2.png";
 import {BiBasket, BiHeart, BiUser} from "react-icons/bi";
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import {Link} from "react-router-dom";
 function Header(){
     const[menuActive, setMenuActive]=useState(false)
     return (<>
@@ -30,7 +31,7 @@ function Header(){
                 <menu>
                     <ul className={style.content__menu__items}>
                         <li>
-                            <a href="">Sale</a>
+                            <Link to="/sale">Sale</Link>
                         </li>
                         <li>
                             <a href="">For men</a>
