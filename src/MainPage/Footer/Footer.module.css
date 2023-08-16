@@ -31,12 +31,12 @@
     font-weight: bolder;
     transition: 0.3s ease;
 }
-@media (max-width: 765px) {
+
+@media (max-width: 479px) {
     .container{
         display: flex;
         flex-direction: column;
         height: 44vh;
-        justify-content: center;
     }
     .description__item{
         font-size: 14px;
@@ -49,6 +49,5 @@
         font-size: 14px;
     }
     .content__link{
-        margin-left: 15px;
     }
 }
