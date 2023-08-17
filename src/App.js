@@ -7,6 +7,9 @@ import ForWoman from "./MainPage/ForWoman/ForWoman";
 import BodyMist from "./MainPage/BodyMist/BodyMist";
 import HomeFragrances from "./MainPage/HomeFragrances/HomeFragrances";
 import Signature from "./MainPage/Signature/Signature";
+import Backets from "./MainPage/Header/Backets/Backets";
+import Profile from "./MainPage/Header/Profile/Profile";
+import Likes from "./MainPage/Header/Likes/Likes";
 function App() {
   return (
       <BrowserRouter>
@@ -18,6 +21,9 @@ function App() {
               <Route path="bodymist" element={<BodyMist/>}/>
               <Route path="homefragrances" element={<HomeFragrances/>}/>
               <Route path="signature" element={<Signature/>}/>
+              <Route path="likes" element={<Likes/>}/>
+              <Route path="backets" element={<Backets/>}/>
+              <Route path="profile" element={<Profile/>}/>
       </Routes>
       </BrowserRouter>
   );

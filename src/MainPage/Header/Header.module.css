@@ -70,6 +70,13 @@
 .content__client__part__icon{
     font-size: 28px;
 }
+.link{
+    color: black;
+}
+.link:hover{
+    color: #FC46AA;
+    transition: 0.5s ease;
+}
 /*media query*/
 @media (min-width: 769px )  and (max-width:1280px) {
     .content{

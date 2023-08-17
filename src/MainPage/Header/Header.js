@@ -22,9 +22,15 @@ function Header(){
                     <img src={logo} alt="logo" className={style.image__logo}/>
                 </Link>
                 <div className={style.content__client__part}>
+                    <Link to="/profile" className={style.link}>
                     <BiUser className={style.content__client__part__icon}/>
+                    </Link>
+                    <Link to="/likes" className={style.link}>
                     <BiHeart className={style.content__client__part__icon}/>
+                    </Link>
+                    <Link to="/backets" className={style.link}>
                     <BiBasket className={style.content__client__part__icon}/>
+                    </Link>
                 </div>
             </div>
             <div className={style.content__menu}>
