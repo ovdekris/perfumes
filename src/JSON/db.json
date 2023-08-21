@@ -1,0 +1,16 @@
+{
+    "perfume":[
+      {
+        "id": 1, "title": "For Man" ,
+        "image": "image"
+      },
+      {
+        "id": 2, "title": "For Woman" ,
+        "image": "image"
+      },
+      {
+        "id": 3, "title": "Home Fragrances" ,
+        "image": "image"
+      }
+    ]
+}
