@@ -1,16 +1,38 @@
 {
-    "perfume":[
-      {
-        "id": 1, "title": "For Man" ,
-        "image": "image"
-      },
-      {
-        "id": 2, "title": "For Woman" ,
-        "image": "image"
-      },
-      {
-        "id": 3, "title": "Home Fragrances" ,
-        "image": "image"
-      }
-    ]
+    "data":{
+      "favorites": [
+        {
+          "id": 1, "title": "For Man" ,
+          "image": "image"
+        },
+        {
+          "id": 2, "title": "For Woman" ,
+          "image": "image"
+        },
+        {
+          "id": 3, "title": "Home Fragrances" ,
+          "image": "image"
+        }],
+      "bestseller": [
+        {
+          "id": 1, "title": "Paco Rabanne's 1 Million" ,
+          "description": "One Million Eau de Toilette is a fresh and spicy fragrance for men with notes of amber, leather, and tangerine. It defies all the rules and upsets the codes while adding a touch of irresistible seduction. ",
+          "image": "image"
+        },
+        {
+          "id": 2, "title": "Chanel Bleu de Chanel" ,
+          "description": "Fresh, clean, and sensual, this men’s scent from Chanel includes notes of citrus, labdanum, sandalwood, and cedar. It can easily transition from day to nigh",
+          "image": "image"
+        }, {
+          "id": 3, "title": "Carolina Herrera" ,
+          "description": "Good Girl by Carolina Herrera is a Amber Floral fragrance for women. Good Girl was launched in 2016. Good Girl was created by Louise Turner and Quentin Bisch. Top notes are Almond, Coffee, Bergamot and Lemon; middle notes are Tuberose, Jasmine Sambac, Orange Blossom",
+          "image": "image"
+        },
+        {
+          "id": 4, "title": "Dior Miss Dior" ,
+          "description": "Miss Dior Eau de Parfum (2021) by Dior is a Amber Floral fragrance for women. Miss Dior Eau de Parfum was launched in 2021. The nose behind this fragrance is François Demachy. Top notes are Iris, Peony and Lily-of-the-Valley; middle notes are Apricot, Rose and Peach; base notes are Vanilla, Musk, Tonka Bean, Benzoin and Sandalwood.",
+          "image": "image"
+        }
+      ]
+    }
 }
