@@ -1,12 +1,12 @@
 import CategoryItem from "./CategoryItem";
 import style from "./Category.module.css";
 
-function Category(){
+function Category({props}){
     return(
         <div className={style.container}>
-            <CategoryItem/>
-            <CategoryItem/>
-            <CategoryItem/>
+            <CategoryItem props={props}/>
+            {/*<CategoryItem/>*/}
+            {/*<CategoryItem/>*/}
         </div>
     )
 }

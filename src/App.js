@@ -14,7 +14,7 @@ function App() {
   return (
       <BrowserRouter>
           <Routes>
-              <Route path="/" element={<Main />}/>
+              <Route path="/" element={<Main/>}/>
               <Route path="sale" element={<Sale/>}/>
               <Route path="forman" element={<ForMan/>}/>
               <Route path="forwoman" element={<ForWoman/>}/>
