@@ -10,6 +10,7 @@ import Signature from "./MainPage/Signature/Signature";
 import Backets from "./MainPage/Header/Backets/Backets";
 import Profile from "./MainPage/Header/Profile/Profile";
 import Likes from "./MainPage/Header/Likes/Likes";
+import {useEffect, useState} from "react";
 function App() {
   return (
       <BrowserRouter>
