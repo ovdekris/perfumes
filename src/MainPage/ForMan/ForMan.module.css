@@ -9,7 +9,7 @@
     background-color: #FC46AA;
     margin:0 10px;
 }
-.title{
+.container__title{
     font-size: 22px;
     display: flex;
     align-items: center;
@@ -17,12 +17,44 @@
 }
 .content{
     margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .content__item{
-    width: 200px;
-    height: 250px;
-    border: 1px solid black;
+    margin: 20px;
+    padding: 10px 15px;
+    width: 260px;
+    height: 400px;
 }
 .image{
-    width: 200px;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 10px;
+}
+.content__heart{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.heart{
+    color: #FC46AA;
+     display: flex;
+    font-size: 26px;
+    cursor: pointer;
+}
+.heart:hover{
+    color: black;
+}
+.title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    max-height: 3vh;
+    margin-bottom: 5px;
+}
+.description{
+    font-size: 14px;
+    color: dimgray;
+    margin-bottom: 10px;
 }
