@@ -6,14 +6,14 @@ import Slider from "./Slider/Slider";
 import Category from "./Category/Category";
 import Bestseller from "./Bestseller/Bestseller";
 import Footer from "./Footer/Footer";
-import axios from "axios";
 
 function Main() {
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
     const [openModule, setOpenModule] = useState(true);
+    const url='http://localhost:5000/data';
     useEffect(() => {
-        fetch('http://localhost:5000/data')
+        fetch(url)
             .then(response => response.json())
             .then(data => {
                 setRecords(data);
@@ -21,18 +21,18 @@ function Main() {
             })
             .catch(err => console.log(err))
     }, []);
-
     if (isLoading) {
         return <p>Loading...</p>; // Показать индикатор загрузки
     }
-   let data=records.favorites;
+    const data=records.favorites;
+    const dataBestseller=records.bestseller;
     return (
         <div className={style.container}>
                             {openModule && <Module open={openModule} setOpenModule={setOpenModule} />}
                             <Header />
                             <Slider />
                             <Category props={data} />}
-                            <Bestseller />
+                            <Bestseller props={dataBestseller}/>
                             <Footer />
         </div>
     );

@@ -3,15 +3,15 @@
       "favorites": [
         {
           "id": 1, "title": "For Man" ,
-          "image": "image"
+          "image": "https://images.unsplash.com/photo-1681935703733-5e9df028a318?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3072&q=80"
         },
         {
           "id": 2, "title": "For Woman" ,
-          "image": "image"
+          "image": "https://images.unsplash.com/photo-1598121496628-9d8b7578e290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80"
         },
         {
           "id": 3, "title": "Home Fragrances" ,
-          "image": "image"
+          "image": "https://images.unsplash.com/photo-1617351166759-427aff10882e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80"
         }],
       "bestseller": [
         {

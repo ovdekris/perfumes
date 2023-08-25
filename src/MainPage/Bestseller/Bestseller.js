@@ -2,7 +2,8 @@ import style from "./Bestseller.module.css";
 import BestsellerItem from "./BestsellerItem";
 import BestsellerItemEven from "./BestsellerItemEven";
 
-function Bestseller(){
+function Bestseller({props}){
+    console.log(props);
     return(<>
         <div className={style.container}>
             <div className={style.title}>

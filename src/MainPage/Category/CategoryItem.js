@@ -1,16 +1,12 @@
 import style from "./CategoryItem.module.css";
-import image from "./img1.jpg";
+import image from "./image2Category.jpg"
 function CategoryItem({props}){
-    console.log(props.map((d)=>{
-        return d.title
-    }))
+
     return(
-        <div className={style.container}>
-            <img src={image} alt="image" className={style.image}/>
-           <div className={style.title}>
-               {props.map(record => (
-                   <li key={record.id}>{record.title}</li>
-               ))}
+        <div className={style.container} key={props.id}>
+            <img src={props.image} alt="image" className={style.image}/>
+           <div className={style.title} key={props.id}>
+               {props.title}
            </div>
         </div>
     )
