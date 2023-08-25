@@ -1,0 +1,28 @@
+.container{
+    max-width: 1280px;
+    margin: 40px auto 100px auto;
+    height: 100%;
+}
+.title__div{
+    width: 8vw;
+    height: 2px;
+    background-color: #FC46AA;
+    margin:0 10px;
+}
+.title{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    margin-top: 40px;
+}
+.content__item{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+}
+.image{
+    width: 200px;
+}
