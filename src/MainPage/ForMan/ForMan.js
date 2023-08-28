@@ -29,7 +29,11 @@ function ForMan(){
                            <div className={style.title}>Bleu de Chanel</div>
                            </div>
                            <div className={style.description}>
-                               Bleu de Chanel  is a men's fragrance created by Jacques Polge for French fashion house Chanel in 2010.
+                               Bleu de Chanel  is a men's fragrance created by Jacques
+                           </div>
+                           <div className={style.scents}>
+                               <div className={style.scents__item}>flower</div>
+                               <div className={style.scents__item}>rose</div>
                            </div>
                        </div>
                        <div className={style.price}>from 40$</div>

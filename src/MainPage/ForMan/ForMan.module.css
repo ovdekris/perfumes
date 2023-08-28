@@ -27,6 +27,11 @@
     width: 260px;
     height: 400px;
 }
+.content__item:hover{
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
 .image{
     width: 100%;
     height: 20vh;
@@ -35,7 +40,7 @@
 .content__heart{
     display: flex;
     justify-content: right;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .heart{
     color: #FC46AA;
@@ -56,5 +61,32 @@
 .description{
     font-size: 14px;
     color: dimgray;
-    margin-bottom: 10px;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    text-align: center;
+    max-height: 5vh;
+    overflow: hidden;
+}
+.price{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+}
+.scents{
+    display: flex;
+    margin:0 auto 20px auto;
+    justify-content: space-between;
+    width: 90%;
+}
+.scents__item{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 7vw;
+    font-size: 14px;
+    background-color: #FC46AA;
+    color: white;
+    padding: 8px;
 }
