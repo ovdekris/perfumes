@@ -3,7 +3,6 @@ import BestsellerItem from "./BestsellerItem";
 import BestsellerItemEven from "./BestsellerItemEven";
 
 function Bestseller({props}){
-    console.log(props);
     return(<>
         <div className={style.container}>
             <div className={style.title}>

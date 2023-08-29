@@ -3,9 +3,10 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import style from "./ForMan.module.css";
 import {AiOutlineHeart} from "react-icons/ai";
-import {BsGenderFemale} from "react-icons/bs";
 
-function ForMan(){
+
+function ForMan({props}){
+    console.log(props)
    return(
        <div>
            <Module/>

@@ -7,7 +7,7 @@ import Category from "./Category/Category";
 import Bestseller from "./Bestseller/Bestseller";
 import Footer from "./Footer/Footer";
 
-function Main() {
+function Main({props}) {
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
     const [openModule, setOpenModule] = useState(true);
@@ -29,10 +29,10 @@ function Main() {
     return (
         <div className={style.container}>
                             {openModule && <Module open={openModule} setOpenModule={setOpenModule} />}
-                            <Header />
+                            <Header props={data} />
                             <Slider />
                             <Category props={data} />}
-                            <Bestseller props={dataBestseller}/>
+                            <Bestseller props={data}/>
                             <Footer />
         </div>
     );

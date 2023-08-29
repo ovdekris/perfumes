@@ -12,12 +12,29 @@ import Profile from "./MainPage/Header/Profile/Profile";
 import Likes from "./MainPage/Header/Likes/Likes";
 import {useEffect, useState} from "react";
 function App() {
+    const [isLoading, setIsLoading] = useState(true);
+    const [records, setRecords] = useState([]);
+    const url='http://localhost:5000/data';
+    useEffect(() => {
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                setRecords(data);
+                setIsLoading(false); // Установить флаг загрузки в false после получения данных
+            })
+            .catch(err => console.log(err))
+    }, []);
+    if (isLoading) {
+        return <p>Loading...</p>; // Показать индикатор загрузки
+    }
+    const data=records.forMen;
+    const dataBestseller=records.bestseller;
   return (
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Main/>}/>
               <Route path="sale" element={<Sale/>}/>
-              <Route path="forman" element={<ForMan/>}/>
+              <Route path="forman" element={<ForMan props={data}/>}/>
               <Route path="forwoman" element={<ForWoman/>}/>
               <Route path="bodymist" element={<BodyMist/>}/>
               <Route path="homefragrances" element={<HomeFragrances/>}/>
