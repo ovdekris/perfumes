@@ -3,14 +3,17 @@
       "favorites": [
         {
           "id": 1, "title": "For Man" ,
+          "link": "/forman",
           "image": "https://images.unsplash.com/photo-1681935703733-5e9df028a318?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3072&q=80"
         },
         {
           "id": 2, "title": "For Woman" ,
+          "link": "/forman",
           "image": "https://images.unsplash.com/photo-1598121496628-9d8b7578e290?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80"
         },
         {
           "id": 3, "title": "Home Fragrances" ,
+          "link": "/homefragrances",
           "image": "https://images.unsplash.com/photo-1617351166759-427aff10882e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80"
         }],
       "bestseller": [
@@ -39,13 +42,13 @@
           "id": 1, "title": "Bleu de Chanel" ,
           "description": " Bleu de Chanel  is a men's fragrance created by Jacques",
           "scents": ["woody","citrus"],
-          "image": "https://testerownia24h.pl/1990-large_default/chanel-bleu-de-chanel-100ml-edp.jpg"
+          "image": "https://assets.vogue.com/photos/6054ceb33de64a1c8b706d68/3:4/w_640,c_limit/slide_6.jpg"
         },
         {
           "id": 2, "title": "Dior Sauvage" ,
           "description": " Inspired by nature and its raw materials, this scent from Dior perfumer François Demachy is earthy and woody.",
           "scents": ["earthy","citrus"],
-          "image": "https://image.s5a.com/is/image/saks/0400088127735_NOCOLOR?wid=968&hei=1292&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0"
+          "image": "https://assets.vogue.com/photos/6054ce48ba2b50871bd1d368/3:4/w_640,c_limit/slide_8.jpg"
         },
         {
           "id": 3, "title": "Ralph Lauren Polo Black" ,
@@ -60,7 +63,7 @@
           "image": "https://assets.vogue.com/photos/6054cd303de64a1c8b706d66/3:4/w_640,c_limit/slide_10.jpg"
         },
         {
-          "id": 5, "title": "Maison Margiela Replica Jazz Club" ,
+          "id": 5, "title": "Maison Margiela Replica Jazz " ,
           "description": " This scent is the next best thing: Warm and spicy, it has notes of pink pepper, rum",
           "scents": ["tobacco","rum"],
           "image": "https://assets.vogue.com/photos/6054ce6c67d465baa48350d5/3:4/w_640,c_limit/slide_14.jpg"
