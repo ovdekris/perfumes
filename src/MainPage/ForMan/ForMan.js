@@ -20,7 +20,7 @@ function ForMan({props}){
                </div>
                <div className={style.content}>
                    {props.map(record => (
-                       <CardProduct key={props.id} props={record}/>
+                       <CardProduct key={props.id} props={record} className={style.content__item}/>
                    ))}
                </div>
            </div>

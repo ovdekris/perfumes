@@ -113,3 +113,39 @@
         overflow: hidden;
     }
 }
+@media (max-width: 764px) {
+    .content__item{
+        width: 48%;
+        margin: 2px;
+        height: 35vh;
+    }
+    .image{
+        height: 15vh;
+        margin-bottom: 0px;
+    }
+    .heart{
+        margin-bottom: -2px;
+    }
+    .title{
+        height: 1.8vh;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    .description{
+        font-size: 12px;
+        height: 3.1vh;
+        overflow: hidden;
+        margin-bottom: 7px;
+    }
+    .scents__item{
+        width: 15vw;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .scents{
+        margin-bottom: 10px;
+    }
+    .price{
+        font-size: 16px;
+    }
+}
