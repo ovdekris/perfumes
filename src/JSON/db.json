@@ -53,7 +53,7 @@
         {
           "id": 3, "title": "Ralph Lauren Polo Black" ,
           "description": "A bold fusion of iced mango, lemon, and tangerine is combined with sandalwood, sage, and patchouli",
-          "scents": ["sage","sandalwood"],
+          "scents": ["sage","sandal"],
           "image": "https://assets.vogue.com/photos/6054ce7c3d9f1094613214fa/3:4/w_640,c_limit/slide_15.jpg"
         },
         {
@@ -101,13 +101,13 @@
         {
           "id": 11, "title": "Hugo Boss Boss" ,
           "description": "Launched in 1998, this enduring cologne is a cult classic thanks to its timeless, masculine scent",
-          "scents": ["sandalwood","citrus"],
+          "scents": ["sandal","citrus"],
           "image": "https://assets.vogue.com/photos/6054cf0748ee0886a203daf9/3:4/w_640,c_limit/slide_3.jpg"
         },
         {
           "id": 12, "title": "Tom Ford Oud Wood" ,
           "description": "Combined with cardamom, sandalwood, and vetiver—with hints of tonka bean",
-          "scents": ["sandalwood","amber"],
+          "scents": ["sandal","amber"],
           "image": "https://assets.vogue.com/photos/6054cd9e9b02ecbcfba47a3e/3:4/w_640,c_limit/slide_17.jpg"
         },
         {

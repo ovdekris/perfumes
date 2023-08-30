@@ -90,3 +90,8 @@
     color: white;
     padding: 8px;
 }
+@media (min-width: 765px) and (max-width:1024px){
+    .container{
+        width: 95%;
+    }
+}

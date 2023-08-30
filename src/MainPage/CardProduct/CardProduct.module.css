@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .content{
     margin-top: 40px;
     display: flex;
@@ -77,4 +82,34 @@
     background-color: #FC46AA;
     color: white;
     padding: 8px;
+}
+@media (min-width: 765px) and (max-width: 1024px) {
+        .content__item{
+            width: 30%;
+            height: 40%;
+            margin: 5px;
+        }
+    .image{
+        margin-bottom: 5px;
+    }
+    .content__heart{
+        margin-bottom: 5px;
+    }
+    .scents__item{
+        width: 10vw;
+        font-size: 14px;
+    }
+    .description{
+        margin-bottom: 10px;
+    }
+    .scents{
+        margin-bottom: 10px;
+    }
+    .price{
+        margin-bottom: 10px;
+    }
+    .title{
+        height: 1.8vh;
+        overflow: hidden;
+    }
 }
