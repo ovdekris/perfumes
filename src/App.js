@@ -28,6 +28,7 @@ function App() {
         return <p>Loading...</p>; // Показать индикатор загрузки
     }
     const data=records.forMen;
+    const dataWoman=records.forWoman;
     const dataBestseller=records.bestseller;
   return (
       <BrowserRouter>
@@ -35,7 +36,7 @@ function App() {
               <Route path="/" element={<Main/>}/>
               <Route path="sale" element={<Sale/>}/>
               <Route path="forman" element={<ForMan props={data}/>}/>
-              <Route path="forwoman" element={<ForWoman/>}/>
+              <Route path="forwoman" element={<ForWoman props={dataWoman}/>}/>
               <Route path="bodymist" element={<BodyMist/>}/>
               <Route path="homefragrances" element={<HomeFragrances/>}/>
               <Route path="signature" element={<Signature/>}/>

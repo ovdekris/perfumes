@@ -2,10 +2,7 @@ import Module from "../Module/Module";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import style from "./ForMan.module.css";
-import {AiOutlineHeart} from "react-icons/ai";
 import CardProduct from "../CardProduct/CardProduct";
-import CategoryItem from "../Category/CategoryItem";
-
 
 function ForMan({props}){
    return(
@@ -28,5 +25,4 @@ function ForMan({props}){
        </div>
    )
 }
-
 export default ForMan;
