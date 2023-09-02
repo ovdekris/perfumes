@@ -42,96 +42,112 @@
           "id": 1, "title": "Bleu de Chanel" ,
           "description": " Bleu de Chanel  is a men's fragrance created by Jacques",
           "scents": ["woody","citrus"],
+          "price": 70,
           "image": "https://assets.vogue.com/photos/6054ceb33de64a1c8b706d68/3:4/w_640,c_limit/slide_6.jpg"
         },
         {
           "id": 2, "title": "Dior Sauvage" ,
           "description": " Inspired by nature and its raw materials, this scent from Dior perfumer François Demachy is earthy and woody.",
           "scents": ["earthy","citrus"],
+          "price": 90,
           "image": "https://assets.vogue.com/photos/6054ce48ba2b50871bd1d368/3:4/w_640,c_limit/slide_8.jpg"
         },
         {
           "id": 3, "title": "Ralph Lauren Polo Black" ,
           "description": "A bold fusion of iced mango, lemon, and tangerine is combined with sandalwood, sage, and patchouli",
           "scents": ["sage","sandal"],
+          "price": 80,
           "image": "https://assets.vogue.com/photos/6054ce7c3d9f1094613214fa/3:4/w_640,c_limit/slide_15.jpg"
         },
         {
           "id": 4, "title": "Gucci the Alchemist’s Garden" ,
           "description": " It’s a warming, cozy scent made up of cedarwoods, cypress, and nutmeg, with woody ",
           "scents": ["nutmeg","woody"],
+          "price": 60,
           "image": "https://assets.vogue.com/photos/6054cd303de64a1c8b706d66/3:4/w_640,c_limit/slide_10.jpg"
         },
         {
           "id": 5, "title": "Maison Margiela Replica Jazz " ,
           "description": " This scent is the next best thing: Warm and spicy, it has notes of pink pepper, rum",
           "scents": ["tobacco","rum"],
+          "price": 90,
           "image": "https://assets.vogue.com/photos/6054ce6c67d465baa48350d5/3:4/w_640,c_limit/slide_14.jpg"
         },
         {
           "id": 6, "title": "Calvin Klein Eternity" ,
           "description": "Clearly, the love affair with this scent carries on too",
           "scents": ["sage","mandarin"],
+          "price": 40,
           "image": "https://assets.vogue.com/photos/6054ce8fde380439cadee5c2/3:4/w_640,c_limit/slide_7.jpg"
         },
         {
           "id": 7, "title": "BLe Labo Another 13" ,
           "description": "A collaboration with Another magazine, the scent is equal parts musky and fresh",
           "scents": ["woody","ambroxan"],
+          "price": 70,
           "image": "https://assets.vogue.com/photos/6054cd6451b6a301cf32a966/3:4/w_640,c_limit/slide_12.jpg"
         },
         {
           "id": 8, "title": "Byredo Bibliothèque" ,
           "description": "It’s also inspired by one of Byredo’s best-selling candles—so you know it’s good",
           "scents": ["plum","peach"],
+          "price": 80,
           "image": "https://assets.vogue.com/photos/6054ce5840c3812adafdb036/3:4/w_640,c_limit/slide_4.jpg"
         },
         {
           "id": 9, "title": "Yves Saint Laurent L’Homme" ,
           "description": "YSL’s L’Homme is inspired by the magnetic attraction of a man with style and sensuality",
           "scents": ["bergamot","citrus"],
+          "price": 50,
           "image": "https://assets.vogue.com/photos/6436e36bd5134c3c819e901f/3:4/w_640,c_limit/slide_.jpg"
         },
         {
           "id": 10, "title": "Maison Crivelli Osmanthe" ,
           "description": "The discovery of the osmanthus flowers on a misty, tropical mountain is the inspiration",
           "scents": ["fruit","paper"],
+          "price": 60,
           "image": "https://assets.vogue.com/photos/6373e3a7bef03ca674096195/3:4/w_640,c_limit/slide_%20(71).jpg"
         },
         {
           "id": 11, "title": "Hugo Boss Boss" ,
           "description": "Launched in 1998, this enduring cologne is a cult classic thanks to its timeless, masculine scent",
           "scents": ["sandal","citrus"],
+          "price": 30,
           "image": "https://assets.vogue.com/photos/6054cf0748ee0886a203daf9/3:4/w_640,c_limit/slide_3.jpg"
         },
         {
           "id": 12, "title": "Tom Ford Oud Wood" ,
           "description": "Combined with cardamom, sandalwood, and vetiver—with hints of tonka bean",
           "scents": ["sandal","amber"],
+          "price": 89,
           "image": "https://assets.vogue.com/photos/6054cd9e9b02ecbcfba47a3e/3:4/w_640,c_limit/slide_17.jpg"
         },
         {
           "id": 13, "title": "Hermès H24" ,
           "description": "It’s perfect for the spring and summer, in particular, though the warming rosewood makes",
           "scents": ["sage","rosewood"],
+          "price": 65,
           "image": "https://assets.vogue.com/photos/618d5c30add0a25be01d748b/3:4/w_640,c_limit/slide_2.jpg"
         },
         {
           "id": 14, "title": "Prada Luna Rossa Ocean" ,
           "description": "Aromatic, musky, and aquatic in nature, Prada’s Luna Rossa Ocean is a refreshingly earthy blend",
           "scents": ["woody","saffron"],
+          "price": 54,
           "image": "https://assets.vogue.com/photos/6436e36a55155b28a64866d7/3:4/w_640,c_limit/slide_2.jpg"
         },
         {
           "id": 15, "title": "Giorgio Armani Acqua di Gio" ,
           "description": "Released in 1996, this classic scent, inspired by the ocean, has stood the test of time for a reason",
           "scents": ["musk","citrus"],
+          "price": 55,
           "image": "https://assets.vogue.com/photos/6054cee3717fc17495451847/3:4/w_640,c_limit/slide_2.jpg"
         },
         {
           "id": 16, "title": "Creed Aventus" ,
           "description": "This best-selling fragrance from Creed was introduced in 2010 and continues to be a fan favorite",
           "scents": ["musk","citrus"],
+          "price": 250,
           "image": "https://assets.vogue.com/photos/618d5c4f9746c91405ace34b/3:4/w_640,c_limit/slide_3.jpg"
         }
       ],
@@ -140,96 +156,112 @@
           "id": 1, "title": "Chanel N°5" ,
           "description": "Beaux’s blend of rose, jasmine, and synthetic aldehydes, an ingredient No. 5",
           "scents": ["rose","jasmine"],
+          "price": 70,
           "image": "https://assets.vogue.com/photos/617c663bb4deefe3ee802317/3:4/w_640,c_limit/slide_.jpg"
         },
         {
           "id": 2, "title": "Maison Francis Kurkdjian Baccarat Rouge 540" ,
           "description": "The Maison wanted an experience that would awaken the senses, like a delicate touch",
           "scents": ["amber","wood"],
+          "price": 270,
           "image": "https://assets.vogue.com/photos/6435add7252be903ce97563b/3:4/w_640,c_limit/slide_.jpg"
         },
         {
           "id": 3, "title": "RGucci A Chant for the Nymph " ,
           "description": "Tropical forests were the scent’s inspiration point, but its heady notes of ylang-ylang",
           "scents": ["sweet","tropical"],
+          "price": 80,
           "image": "https://assets.vogue.com/photos/611ed4f8ab7a6735f23c3570/3:4/w_640,c_limit/slide_3.jpg"
         },
         {
           "id": 4, "title": "Tom Ford Soleil Brûlant" ,
           "description": "Everything from the metallic bottle that looks like a gold brick to the indulgent use of amber",
           "scents": ["amber","honey"],
+          "price": 160,
           "image": "https://assets.vogue.com/photos/611583618598bb8c5f827646/3:4/w_640,c_limit/slide_75.jpg"
         },
         {
           "id": 5, "title": "Maison Francis Kurkdjian Amyris Femme" ,
           "description": "Francis Kurkdjian’s dreamy floral mixes Jamaican amyris—a flowering plant with a rich citrus scen",
           "scents": ["fruity","citrus"],
+          "price": 180,
           "image": "https://assets.vogue.com/photos/61158361e7d084b43e5bcf58/3:4/w_640,c_limit/slide_76.jpg"
         },
         {
           "id": 6, "title": "Parfums de Marly Safanad" ,
           "description": "Safanad, their elegant orange blossom and pear fragrance crafted by perfumer Fabrice Pellegrin",
           "scents": ["fruity","nectar"],
+          "price": 80,
           "image": "hhttps://assets.vogue.com/photos/611583631bee75697191ea72/3:4/w_640,c_limit/slide_77.jpg"
         },
         {
           "id": 7, "title": "Yves Saint Laurent Libre" ,
           "description": "This feat was achieved by contrasting lavender sourced from France with notes of orange blossom",
           "scents": ["orange","musk"],
+          "price": 50,
           "image": "https://assets.vogue.com/photos/63cee16b2a60a4ccf652fd1d/3:4/w_640,c_limit/slide_3%20(12).jpg"
         },
         {
           "id": 8, "title": "Byredo La Tulipe" ,
           "description": "Byredo’s innovative approach to fragrance means that even its most crowd-pleasing floral is a break from the norm.",
           "scents": ["tulip","floral"],
+          "price": 120,
           "image": "https://assets.vogue.com/photos/617c668240bf3c8d4cd29866/3:4/w_640,c_limit/slide_3.jpg"
         },
         {
           "id": 9, "title": "Chanel Coco Mademoiselle" ,
           "description": "The vibrant eau de parfum is led orange notes, opposing sensual accords of Grasse jasmine",
           "scents": ["jasmin","citrus"],
+          "price": 60,
           "image": "https://assets.vogue.com/photos/6435add7e4acd7312f181d70/3:4/w_640,c_limit/slide_2.jpg"
         },
         {
           "id": 10, "title": "Acqua di Parma Bergamotto di Calabria" ,
           "description": "Bergamot is a popular ingredient in perfumery, but here they’ve utilized its most potent version",
           "scents": ["bergamot","citrus"],
+          "price": 76,
           "image": "https://assets.vogue.com/photos/6284012c25f7fa007bc0e2bc/3:4/w_640,c_limit/slide_%20(1).jpg"
         },
         {
           "id": 11, "title": "Xerjoff Apollonia " ,
           "description": "The 1969 moon landing has inspired novels, films, and now, a perfume",
           "scents": ["musk","floral"],
+          "price": 150,
           "image": "https://assets.vogue.com/photos/61158363e378d0f112428ba4/3:4/w_640,c_limit/slide_80.jpg"
         },
         {
           "id": 12, "title": "Kilian Forbidden Games" ,
           "description": "Forbidden Games by Kilian defies categorization. It offers a true fragrance journey",
           "scents": ["fruit","honey"],
+          "price": 90,
           "image": "https://assets.vogue.com/photos/61158363171b66e7206042af/3:4/w_640,c_limit/slide_81.jpg"
         },
         {
           "id": 13, "title": "Creed Aventus for Her" ,
           "description": "There is nothing quite like Aventus, the pineapple and bergamot-heavy chypre Creed",
           "scents": ["roses","floral"],
+          "price": 200,
           "image": "hhttps://assets.vogue.com/photos/61158364171b66e7206042b1/3:4/w_640,c_limit/slide_84.jpg"
         },
         {
           "id": 14, "title": "Le Labo Santal 33" ,
           "description": "The American West serves as inspiration for Le Labo’s Santal 33",
           "scents": ["woody","spicy"],
+          "price": 230,
           "image": "https://assets.vogue.com/photos/6435add7f8481eff02bce939/3:4/w_640,c_limit/slide_3.jpg"
         },
         {
           "id": 15, "title": "Henry Rose Queens and Monsters " ,
           "description": "Michelle Pfeiffer has portrayed every type of character imaginable during her onscreen career",
           "scents": ["roses","spicy"],
+          "price": 85,
           "image": "https://assets.vogue.com/photos/6282b6654bd3916d232388a3/3:4/w_640,c_limit/slide_3.jpg"
         },
         {
           "id": 16, "title": "Viktor&Rolf Flowerbomb" ,
           "description": "Often described as explosive, Flowerbomb isn’t your typical floral fragrance",
           "scents": ["roses","jasmin"],
+          "price": 45,
           "image": "https://assets.vogue.com/photos/6435add9fc261b4162402216/3:4/w_640,c_limit/slide_5.jpg"
         }
       ]

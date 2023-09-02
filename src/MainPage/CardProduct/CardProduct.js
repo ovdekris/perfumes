@@ -23,7 +23,7 @@ function CardProduct({props}){
                     <div className={style.scents__item}>{props.scents[1]}</div>
                 </div>
             </div>
-            <div className={style.price}>from 40$</div>
+            <div className={style.price}>{props.price}$</div>
         </div>
     )
 }
