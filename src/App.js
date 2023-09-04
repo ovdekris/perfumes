@@ -29,6 +29,7 @@ function App() {
     }
     const data=records.forMen;
     const dataWoman=records.forWoman;
+    const dataFragrances=records.homeFragrances;
     const dataBestseller=records.bestseller;
   return (
       <BrowserRouter>
@@ -38,7 +39,7 @@ function App() {
               <Route path="forman" element={<ForMan props={data}/>}/>
               <Route path="forwoman" element={<ForWoman props={dataWoman}/>}/>
               <Route path="bodymist" element={<BodyMist/>}/>
-              <Route path="homefragrances" element={<HomeFragrances/>}/>
+              <Route path="homefragrances" element={<HomeFragrances props={dataFragrances}/>}/>
               <Route path="signature" element={<Signature/>}/>
               <Route path="likes" element={<Likes/>}/>
               <Route path="backets" element={<Backets/>}/>
