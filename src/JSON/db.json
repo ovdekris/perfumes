@@ -302,11 +302,11 @@
           "image": "https://image.harrods.com/tom-dixon-underground-diffuser-200ml_16392928_31442537_2048.jpg"
         },
         {
-          "id": 6, "title": "Diptyque" ,
-          "description": "The ultimate summer scent to breath life into your home",
-          "scents": ["neroli","orange"],
-          "price": 160,
-          "image": "https://image.harrods.com/diptyque-citronnelle-diffuser-200ml_20233170_45488132_2048.jpg"
+          "id": 6, "title": "Culti Milano" ,
+          "description": "Brighten your home with the refreshing, woody scent",
+          "scents": ["woody","spicy"],
+          "price": 87,
+          "image": "https://image.harrods.com/culti-milano-mediterranea-fragrance-diffuser-500ml_14870421_23977678_2048.jpg"
         },
         {
           "id": 7, "title": "Diptyque Fleur d'Orange" ,
@@ -330,53 +330,53 @@
           "image": "https://images.selfridges.com/is/image/selfridges/701-10020-PRODL2W601_M?$PDP_M_ZOOM$=&wid=952&hei=1269&fmt=webp&fit=crop,1&qlt=90,1"
         },
         {
-          "id": 10, "title": "Acqua di Parma Bergamotto di Calabria" ,
-          "description": "Bergamot is a popular ingredient in perfumery, but here they’ve utilized its most potent version",
-          "scents": ["bergamot","citrus"],
-          "price": 76,
-          "image": "https://assets.vogue.com/photos/6284012c25f7fa007bc0e2bc/3:4/w_640,c_limit/slide_%20(1).jpg"
+          "id": 10, "title": "Diptyque" ,
+          "description": "The ultimate summer scent to breath life into your home",
+          "scents": ["neroli","orange"],
+          "price": 160,
+          "image": "https://image.harrods.com/diptyque-citronnelle-diffuser-200ml_20233170_45488132_2048.jpg"
         },
         {
-          "id": 11, "title": "Xerjoff Apollonia " ,
-          "description": "The 1969 moon landing has inspired novels, films, and now, a perfume",
-          "scents": ["musk","floral"],
-          "price": 150,
-          "image": "https://assets.vogue.com/photos/61158363e378d0f112428ba4/3:4/w_640,c_limit/slide_80.jpg"
+          "id": 11, "title": "Ralph Lauren Joshua Tree" ,
+          "description": "The gold-tone lid is engraved with the label's signature logo",
+          "scents": ["musk","flower"],
+          "price": 70,
+          "image": "https://image.harrods.com/ralph-lauren-home-joshua-tree-diffuser-124ml_19236411_42249572_2048.jpg"
         },
         {
-          "id": 12, "title": "Kilian Forbidden Games" ,
-          "description": "Forbidden Games by Kilian defies categorization. It offers a true fragrance journey",
-          "scents": ["fruit","honey"],
-          "price": 90,
-          "image": "https://assets.vogue.com/photos/61158363171b66e7206042af/3:4/w_640,c_limit/slide_81.jpg"
+          "id": 12, "title": "Senti Jasmine" ,
+          "description": "Your living space will soon be diffused with sophisticated floral",
+          "scents": ["jasmine","floral"],
+          "price": 275,
+          "image": "https://image.harrods.com/senti-jasmine-and-geranium-diffuser-500ml_14909644_25540023_2048.jpg"
         },
         {
-          "id": 13, "title": "Creed Aventus for Her" ,
-          "description": "There is nothing quite like Aventus, the pineapple and bergamot-heavy chypre Creed",
-          "scents": ["roses","floral"],
-          "price": 200,
-          "image": "https://assets.vogue.com/photos/61158364171b66e7206042b1/3:4/w_640,c_limit/slide_84.jpg"
+          "id": 13, "title": "Dr. Vranjes Firenze  Rosso Nobile",
+          "description": "Designed to evoke warmth within the household",
+          "scents": ["roses","woody"],
+          "price": 100,
+          "image": "https://image.harrods.com/dr-vranjes-firenze-limited-edition-rosso-nobile-diffuser-500ml_20514755_45723255_2048.jpg"
         },
         {
-          "id": 14, "title": "Le Labo Santal 33" ,
+          "id": 14, "title": "Jo Malone Wild Berry & Bramble" ,
           "description": "The American West serves as inspiration for Le Labo’s Santal 33",
-          "scents": ["woody","spicy"],
-          "price": 230,
-          "image": "https://assets.vogue.com/photos/6435add7f8481eff02bce939/3:4/w_640,c_limit/slide_3.jpg"
+          "scents": ["wild berry","bramble"],
+          "price": 500,
+          "image": "https://image.harrods.com/jo-malone-london-wild-berry-bramble-diffuser-and-refill-350ml_16905322_33532848_2048.jpg"
         },
         {
-          "id": 15, "title": "Henry Rose Queens and Monsters " ,
-          "description": "Michelle Pfeiffer has portrayed every type of character imaginable during her onscreen career",
-          "scents": ["roses","spicy"],
-          "price": 85,
-          "image": "https://assets.vogue.com/photos/6282b6654bd3916d232388a3/3:4/w_640,c_limit/slide_3.jpg"
+          "id": 15, "title": "Culti Milano Mediterranea Fragrance" ,
+          "description": "Brighten your home with the refreshin",
+          "scents": ["refresh","spicy"],
+          "price": 123,
+          "image": "https://image.harrods.com/culti-milano-mediterranea-fragrance-diffuser-1l_14870439_23977688_2048.jpg"
         },
         {
-          "id": 16, "title": "Viktor&Rolf Flowerbomb" ,
-          "description": "Often described as explosive, Flowerbomb isn’t your typical floral fragrance",
-          "scents": ["roses","jasmin"],
-          "price": 45,
-          "image": "https://assets.vogue.com/photos/6435add9fc261b4162402216/3:4/w_640,c_limit/slide_5.jpg"
+          "id": 16, "title": "Baobab Collection Totem Feathers" ,
+          "description": "Saturate the room with delicious scents reminiscent of polar landscapes",
+          "scents": ["roses","wood"],
+          "price": 390,
+          "image": "https://image.harrods.com/baobab-collection-totem-feathers-diffuser-2000ml_15416406_27296332_2048.jpg"
         }
       ]
     }
