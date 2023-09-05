@@ -448,49 +448,49 @@
           "description": "This body spray can be spritzed over both your hair and body",
           "scents": ["roses","orange"],
           "price": 21,
-          "image": "https://image.harrods.com/diptyque-citronnelle-diffuser-200ml_20233170_45488132_2048.jpg"
+          "image": "https://rituals.scene7.com/is/image/rituals/1117847-rituals-sakura-hairbodymist-50ml?resMode=sharp2&fmt=png-alpha&crop=1250,750,4500,4500&wid=1000"
         },
         {
-          "id": 11, "title": "Ralph Lauren Joshua Tree" ,
-          "description": "The gold-tone lid is engraved with the label's signature logo",
-          "scents": ["musk","flower"],
-          "price": 70,
-          "image": "https://image.harrods.com/ralph-lauren-home-joshua-tree-diffuser-124ml_19236411_42249572_2048.jpg"
+          "id": 11, "title": "The White Company Seychelles" ,
+          "description": "The White Company fragrances are so chic, and the Seychelles mist features creamy vanilla",
+          "scents": ["vanilla","amber"],
+          "price": 18,
+          "image": "https://cdn.cliqueinc.com/posts/308325/body-sprays-for-women-308325-1692895674339-main.1200x0c.jpg?interlace=true&quality=70"
         },
         {
-          "id": 12, "title": "Senti Jasmine" ,
+          "id": 12, "title": "Victoria's Secret Bare Vanilla" ,
           "description": "Your living space will soon be diffused with sophisticated floral",
-          "scents": ["jasmine","floral"],
-          "price": 275,
-          "image": "https://image.harrods.com/senti-jasmine-and-geranium-diffuser-500ml_14909644_25540023_2048.jpg"
+          "scents": ["vanilla","rose"],
+          "price": 17,
+          "image": "https://media.victoriassecret.pl/catalog/product/f/6/f6e2f307634385dff5f6b6c5ea2a5dfdb3e29e7e_92c0.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover"
         },
         {
-          "id": 13, "title": "Dr. Vranjes Firenze  Rosso Nobile",
-          "description": "Designed to evoke warmth within the household",
-          "scents": ["roses","woody"],
+          "id": 13, "title": "Victoria's Secret Pink Body Mist",
+          "description": "A scent blend to inspire a cozy, Sunday state-of-mind. Comforting. Addicting",
+          "scents": ["warm","coconut"],
+          "price": 20,
+          "image": "https://media.victoriassecret.pl/catalog/product/e/e/ee87568c619e1404dbd426dcbf46f242f78f73f1_d588.jpg"
+        },
+        {
+          "id": 14, "title": "Bath and Body Works INTO THE NIGHT" ,
+          "description": "Fine Fragrance Mist 8 Fluid Ounce ",
+          "scents": ["chocolate","vanilla"],
           "price": 100,
-          "image": "https://image.harrods.com/dr-vranjes-firenze-limited-edition-rosso-nobile-diffuser-500ml_20514755_45723255_2048.jpg"
+          "image": "https://media.bathandbodyworks.pl/catalog/product/8/2/82abd78eaeab3f331a5dac24265123a3b4a8ae9f_8e28.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover"
         },
         {
-          "id": 14, "title": "Jo Malone Wild Berry & Bramble" ,
-          "description": "The American West serves as inspiration for Le Labo’s Santal 33",
-          "scents": ["wild berry","bramble"],
-          "price": 500,
-          "image": "https://image.harrods.com/jo-malone-london-wild-berry-bramble-diffuser-and-refill-350ml_16905322_33532848_2048.jpg"
+          "id": 15, "title": "Good Chemistry Pink Palm " ,
+          "description": "The lighter formulation of the Body Mist is perfect for an all-over application",
+          "scents": ["magnolia","vanilla"],
+          "price": 13,
+          "image": "https://www.good-chemistry.com/cdn/shop/products/PinkPalm_BodyMist_01_1296x.jpg?v=1640026595"
         },
         {
-          "id": 15, "title": "Culti Milano Mediterranea Fragrance" ,
-          "description": "Brighten your home with the refreshin",
-          "scents": ["refresh","spicy"],
-          "price": 123,
-          "image": "https://image.harrods.com/culti-milano-mediterranea-fragrance-diffuser-1l_14870439_23977688_2048.jpg"
-        },
-        {
-          "id": 16, "title": "Baobab Collection Totem Feathers" ,
-          "description": "Saturate the room with delicious scents reminiscent of polar landscapes",
-          "scents": ["roses","wood"],
-          "price": 390,
-          "image": "https://image.harrods.com/baobab-collection-totem-feathers-diffuser-2000ml_15416406_27296332_2048.jpg"
+          "id": 16, "title": "Love's Baby Soft Cologne Mist" ,
+          "description": "Similar to a body spray, spritz generously and surround yourself in “whisper soft” delicate florals and sheer musk to feel powder-fresh all over",
+          "scents": ["floral","fresh"],
+          "price": 17,
+          "image": "https://danaclassics.com/cdn/shop/products/LovesWalm_3500_0112_2048x2048.jpg?v=1662539156"
         }
       ]
     }
