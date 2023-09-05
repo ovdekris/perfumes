@@ -2,6 +2,7 @@ import Module from "../Module/Module";
 import Header from "../Header/Header";
 import CardProduct from "../CardProduct/CardProduct";
 import style from "../ForWoman/ForWoman.module.css";
+import Footer from "../Footer/Footer";
 function HomeFragrances({props}){
     return(
         <div>
@@ -19,6 +20,7 @@ function HomeFragrances({props}){
                     ))}
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
