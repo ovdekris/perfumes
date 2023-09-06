@@ -32,6 +32,7 @@ function App() {
     const dataFragrances=records.homeFragrances;
     const dataBodyMist=records.bodyMist;
     const dataBestseller=records.bestseller;
+    const dataSignature=records.signature;
   return (
       <BrowserRouter>
           <Routes>
@@ -41,7 +42,7 @@ function App() {
               <Route path="forwoman" element={<ForWoman props={dataWoman}/>}/>
               <Route path="bodymist" element={<BodyMist props={dataBodyMist}/>}/>
               <Route path="homefragrances" element={<HomeFragrances props={dataFragrances}/>}/>
-              <Route path="signature" element={<Signature/>}/>
+              <Route path="signature" element={<Signature props={dataSignature}/>}/>
               <Route path="likes" element={<Likes/>}/>
               <Route path="backets" element={<Backets/>}/>
               <Route path="profile" element={<Profile/>}/>

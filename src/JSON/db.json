@@ -492,6 +492,120 @@
           "price": 17,
           "image": "https://danaclassics.com/cdn/shop/products/LovesWalm_3500_0112_2048x2048.jpg?v=1662539156"
         }
+      ],
+      "signature": [
+        {
+          "id": 1, "title": "House Of Bo Fragrances" ,
+          "description": "El Sireno is a collaboration with world renowned perfumer Laurent Le Guernec",
+          "scents": ["magnolia","wood"],
+          "price": 365,
+          "image": "https://media.bergdorfgoodman.com/f_auto,q_auto:low,ar_5:7,c_fill,dpr_2.0,w_720/01/bg_4481152_100801_m"
+        },
+        {
+          "id": 2, "title": "Santal 33 Le Labo" ,
+          "description": "A unisex fragrance that captures a defining image of the spirit of the American West and personal freedom",
+          "scents": ["iris","cardamon"],
+          "price": 310,
+          "image": "https://fraguru.com/mdimg/perfume/375x500.12201.jpg"
+        },
+        {
+          "id": 3, "title": "Tom Ford Ombre Leather" ,
+          "description": "A distinct floral leather, Ombre Leather Parfum intensifies the original scent",
+          "scents": ["leather","omber"],
+          "price": 275,
+          "image": "https://www.sephora.pl/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw7fad9f29/images/hi-res/PID_principal/P3426001_principal.jpg?sw=585&sh=585&sm=fit"
+        },
+        {
+          "id": 4, "title": "Maison Francis Kurkdjian Baccarat Rouge 540" ,
+          "description": "Notes of fig are mixed with sweet cassis and cosy amber ",
+          "scents": ["amber","saffron"],
+          "price": 325,
+          "image": "https://www.byrdie.com/thmb/yltBthlVMB-giw_9oUJIA6zq4q4=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/maisonfranciskurkdjianparisbaccaratrouge540eaudeparfum-6285f08bef374db3bc172f24be8d7fdd.png"
+        },
+        {
+          "id": 5, "title": "D.S. & Durga I Don't Know What" ,
+          "description": "Beauty writer Taylore Glynn wears fragrance for herself first and foremost",
+          "scents": ["ambrox","bergamot"],
+          "price": 190,
+          "image": "https://www.byrdie.com/thmb/IhzexVSFvNKAicoRJ2kLIFvXC_g=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/d.s.durgaidontknowwhateaudeparfum-271c1c1e6a4e48d98eff10e08e039652.png"
+        },
+        {
+          "id": 6, "title": "The Maker Stag" ,
+          "description": "This juice boasts bold notes like agarwood, leather, and palo santo",
+          "scents": ["bergamot","leather"],
+          "price": 175,
+          "image": "https://www.byrdie.com/thmb/17s2GSvtDN5NzIXtxeJCB7Ki4pM=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/themakerstageaudeparfum-1562e39dd36a4306b1c4bac78af3804c.png"
+        },
+        {
+          "id": 7, "title": "Chris Collins Danse Sauvage" ,
+          "description": "As you can imagine, that scent profile creates a powerful, intoxicating experience",
+          "scents": ["vanilla","oud"],
+          "price": 175,
+          "image": "https://www.byrdie.com/thmb/-gGR97YwZalH3Hf4tah8FTXSGnk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/chriscollinsdansesauvage-9fa92e5cc7f54fa585c77bafc6f82f68.png"
+        },
+        {
+          "id": 8, "title": "Parfums de Marly Oriana" ,
+          "description": "Notes of mandarin and grapefruit conjure images of enjoying drinks in the sunshine ",
+          "scents": ["musk","bergamot"],
+          "price": 355,
+          "image": "https://cdn.cliqueinc.com/posts/308325/body-sprays-for-women-308325-1689605155945-main.1200x0c.jpg?interlace=true&quality=70"
+        },
+        {
+          "id": 9, "title": "Chanel Chance Eau Tendre Sheer" ,
+          "description": "It's such a sophisticated everyday scent, and the mist is no exception",
+          "scents": ["fresh","floral"],
+          "price": 40,
+          "image": "https://cdn.cliqueinc.com/posts/308325/body-sprays-for-women-308325-1689674052992-main.1200x0c.jpg?interlace=true&quality=70"
+        },
+        {
+          "id": 10, "title": "Rituals The Ritual of Sakura Hair" ,
+          "description": "This body spray can be spritzed over both your hair and body",
+          "scents": ["roses","orange"],
+          "price": 21,
+          "image": "https://rituals.scene7.com/is/image/rituals/1117847-rituals-sakura-hairbodymist-50ml?resMode=sharp2&fmt=png-alpha&crop=1250,750,4500,4500&wid=1000"
+        },
+        {
+          "id": 11, "title": "The White Company Seychelles" ,
+          "description": "The White Company fragrances are so chic, and the Seychelles mist features creamy vanilla",
+          "scents": ["vanilla","amber"],
+          "price": 18,
+          "image": "https://cdn.cliqueinc.com/posts/308325/body-sprays-for-women-308325-1692895674339-main.1200x0c.jpg?interlace=true&quality=70"
+        },
+        {
+          "id": 12, "title": "Victoria's Secret Bare Vanilla" ,
+          "description": "Your living space will soon be diffused with sophisticated floral",
+          "scents": ["vanilla","rose"],
+          "price": 17,
+          "image": "https://media.victoriassecret.pl/catalog/product/f/6/f6e2f307634385dff5f6b6c5ea2a5dfdb3e29e7e_92c0.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover"
+        },
+        {
+          "id": 13, "title": "Victoria's Secret Pink Body Mist",
+          "description": "A scent blend to inspire a cozy, Sunday state-of-mind. Comforting. Addicting",
+          "scents": ["warm","coconut"],
+          "price": 20,
+          "image": "https://media.victoriassecret.pl/catalog/product/e/e/ee87568c619e1404dbd426dcbf46f242f78f73f1_d588.jpg"
+        },
+        {
+          "id": 14, "title": "Bath and Body Works INTO THE NIGHT" ,
+          "description": "Fine Fragrance Mist 8 Fluid Ounce ",
+          "scents": ["chocolate","vanilla"],
+          "price": 100,
+          "image": "https://media.bathandbodyworks.pl/catalog/product/8/2/82abd78eaeab3f331a5dac24265123a3b4a8ae9f_8e28.jpg?auto=webp&format=pjpg&width=960&height=1200&fit=cover"
+        },
+        {
+          "id": 15, "title": "Good Chemistry Pink Palm " ,
+          "description": "The lighter formulation of the Body Mist is perfect for an all-over application",
+          "scents": ["magnolia","vanilla"],
+          "price": 13,
+          "image": "https://www.good-chemistry.com/cdn/shop/products/PinkPalm_BodyMist_01_1296x.jpg?v=1640026595"
+        },
+        {
+          "id": 16, "title": "Love's Baby Soft Cologne Mist" ,
+          "description": "Similar to a body spray, spritz generously and surround yourself in “whisper soft” delicate florals and sheer musk to feel powder-fresh all over",
+          "scents": ["floral","fresh"],
+          "price": 17,
+          "image": "https://danaclassics.com/cdn/shop/products/LovesWalm_3500_0112_2048x2048.jpg?v=1662539156"
+        }
       ]
     }
 }
