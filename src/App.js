@@ -31,13 +31,13 @@ function App() {
     const dataWoman=records.forWoman;
     const dataFragrances=records.homeFragrances;
     const dataBodyMist=records.bodyMist;
-    const dataBestseller=records.bestseller;
     const dataSignature=records.signature;
+    const dataSale=records.sale;
   return (
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Main/>}/>
-              <Route path="sale" element={<Sale/>}/>
+              <Route path="sale" element={<Sale props={dataSale}/>}/>
               <Route path="forman" element={<ForMan props={data}/>}/>
               <Route path="forwoman" element={<ForWoman props={dataWoman}/>}/>
               <Route path="bodymist" element={<BodyMist props={dataBodyMist}/>}/>
