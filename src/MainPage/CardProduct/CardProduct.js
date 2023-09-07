@@ -2,9 +2,8 @@ import style from "./CardProduct.module.css";
 import {AiOutlineHeart} from "react-icons/ai";
 
 function CardProduct({props}){
-    console.log(props)
     return(
-        <div className={style.content__item}>
+        <div className={style.content__item} key={props.id}>
             <div className={style.content__heart}>
                 <AiOutlineHeart className={style.heart}/>
             </div>

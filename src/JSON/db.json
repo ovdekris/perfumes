@@ -609,115 +609,131 @@
       ],
       "sale": [
         {
-          "id": 1, "title": "House Of Bo Fragrances" ,
-          "description": "El Sireno is a collaboration with world renowned perfumer Laurent Le Guernec",
-          "scents": ["magnolia","wood"],
-          "price": 365,
-          "image": "https://media.bergdorfgoodman.com/f_auto,q_auto:low,ar_5:7,c_fill,dpr_2.0,w_720/01/bg_4481152_100801_m"
+          "id": 1, "title": "Miss Dior" ,
+          "description": "I love how Dior bridges classic femininity with a modern twis",
+          "scents": ["roses","floral"],
+          "price": 100,
+          "reducePrice": 85,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683757934-1649253257-screen-shot-2022-04-06-at-9-53-32-am-1649253245.png?crop=0.998xw:1xh;center,top&resize=980:*"
         },
         {
-          "id": 2, "title": "Santal 33 Le Labo" ,
-          "description": "A unisex fragrance that captures a defining image of the spirit of the American West and personal freedom",
-          "scents": ["iris","cardamon"],
-          "price": 310,
-          "image": "https://fraguru.com/mdimg/perfume/375x500.12201.jpg"
+          "id": 2, "title": "Char Henry Rose" ,
+          "description": "Tonka Bean Absolute and Ivory Coast Ginger blend with a hint of Moroccan Orange Flower",
+          "scents": ["orange","flower"],
+          "price": 120,
+          "reducePrice": 100,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683757865-HR_Perfume_2K_2022_CHAR_50ML_MedTransparency_800x800.png?crop=1xw:1.00xh;center,top&resize=980:*"
         },
         {
-          "id": 3, "title": "Tom Ford Ombre Leather" ,
-          "description": "A distinct floral leather, Ombre Leather Parfum intensifies the original scent",
-          "scents": ["leather","omber"],
-          "price": 275,
-          "image": "https://www.sephora.pl/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw7fad9f29/images/hi-res/PID_principal/P3426001_principal.jpg?sw=585&sh=585&sm=fit"
+          "id": 3, "title": "LV California Dream" ,
+          "description": "Louis Vuitton fragrances are truly works of art that you can wear every single day",
+          "scents": ["pure","roses"],
+          "price": 300,
+          "reducePrice": 250,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758030-screen-shot-2023-05-10-at-6-33-33-pm-645c1bc7828a4.png?crop=0.9743589743589743xw:1xh;center,top&resize=980:*"
         },
         {
-          "id": 4, "title": "Maison Francis Kurkdjian Baccarat Rouge 540" ,
-          "description": "Notes of fig are mixed with sweet cassis and cosy amber ",
-          "scents": ["amber","saffron"],
-          "price": 325,
-          "image": "https://www.byrdie.com/thmb/yltBthlVMB-giw_9oUJIA6zq4q4=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/maisonfranciskurkdjianparisbaccaratrouge540eaudeparfum-6285f08bef374db3bc172f24be8d7fdd.png"
+          "id": 4, "title": "Chanel Chance" ,
+          "description": "An enhanced interpretation of the unexpected floral-fruity fragrance",
+          "scents": ["floral","grapefruit"],
+          "price": 165,
+          "reducePrice": 140,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758565-1664387075-chanel-chance-1664387052.png?crop=1xw:1.00xh;center,top&resize=980:*"
         },
         {
           "id": 5, "title": "D.S. & Durga I Don't Know What" ,
           "description": "Beauty writer Taylore Glynn wears fragrance for herself first and foremost",
           "scents": ["ambrox","bergamot"],
-          "price": 190,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/IhzexVSFvNKAicoRJ2kLIFvXC_g=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/d.s.durgaidontknowwhateaudeparfum-271c1c1e6a4e48d98eff10e08e039652.png"
         },
         {
           "id": 6, "title": "The Maker Stag" ,
           "description": "This juice boasts bold notes like agarwood, leather, and palo santo",
           "scents": ["bergamot","leather"],
-          "price": 175,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/17s2GSvtDN5NzIXtxeJCB7Ki4pM=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/themakerstageaudeparfum-1562e39dd36a4306b1c4bac78af3804c.png"
         },
         {
           "id": 7, "title": "Chris Collins Danse Sauvage" ,
           "description": "As you can imagine, that scent profile creates a powerful, intoxicating experience",
           "scents": ["vanilla","oud"],
-          "price": 175,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/-gGR97YwZalH3Hf4tah8FTXSGnk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/chriscollinsdansesauvage-9fa92e5cc7f54fa585c77bafc6f82f68.png"
         },
         {
           "id": 8, "title": "Parfums de Marly Oriana" ,
           "description": "Notes of mandarin and grapefruit conjure images of enjoying drinks in the sunshine ",
           "scents": ["musk","bergamot"],
-          "price": 355,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/T1NgwBem6bhC6glLslrDf-cZim4=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/parfumsdemarlyorianaeaudeparfum-1c25e9df19db4e5dbbc79f00880c8888.png"
         },
         {
           "id": 9, "title": "Kilian Paris Love, Don't Be Shy" ,
           "description": "The perfect summer evening perfume, this sweet but not syrupy scent highlights notes",
           "scents": ["vanilla","blossom"],
-          "price": 275,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/YBIJM1MeEcG8004iUFdQtgADwmA=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/kilianparislovedontbeshyeaudeparfum-3e212166295f4996b931bc82dc07d80e.png"
         },
         {
           "id": 10, "title": "Tom Ford Tobacco Vanille" ,
           "description": "It's a sexy and sophisticated scent that's ideal for nighttime",
           "scents": ["tobacco","vanilla"],
-          "price": 249,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.sephora.pl/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw23c4f125/images/hi-res/SKU/SKU_2/220534_swatch.jpg?sw=585&sh=585&sm=fit"
         },
         {
           "id": 11, "title": "Jo Malone Myrrh & Tonka Cologne" ,
           "description": "The potent almond, myrrh, and vanilla scent melds beautifully with your skin's unique ",
           "scents": ["almond","lavender"],
-          "price": 176,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/JiB81smHyGUysWLAK-3Vt49e8b0=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/jo-malone-london-myrrh-tonka-cologne-intense-b03ef40bc23842bcb96ff15a1ecf729b.jpg"
         },
         {
           "id": 12, "title": "Byredo Bibliotique" ,
           "description": "Your living space will soon be diffused with sophisticated floral",
           "scents": ["wood","violet"],
-          "price": 200,
+          "price": 120,
+          "reducePrice": 100,
           "image": "Top notes of plum and cinnamon lend a sweet touch to the otherwise woody and intense blend of leather"
         },
         {
           "id": 13, "title": "Tom Ford Bitter Peach",
           "description": "A scent blend to inspire a cozy, Sunday state-of-mind. Comforting. Addicting",
           "scents": ["peach","coconut"],
-          "price": 395,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/ChQpP6HjSvnlfkPBTciEc2th88E=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/tom-ford-bitter-peach-eau-de-parfum-dc44a323a37f484998987371f46e4b0f.jpg"
         },
         {
           "id": 14, "title": "Le Labo Patchouli 24" ,
           "description": "This is really one of those scents that surprises you when you first smell it—because yes",
           "scents": ["birch","leather"],
-          "price": 220,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/3d_2TTQmGAEV2KyvPWH9kEdkOMw=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/le-labo-patchouli-24-eau-de-parfum-b1fd6169844d48718664b90f06ab03c5.jpg"
         },
         {
           "id": 15, "title": "Byredo Vanille Antique" ,
           "description": "It’s warm and sweet without being overpowering",
           "scents": ["cashmere","amber"],
-          "price": 335,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/i0x90HEk3WcDwF6cKwz1pN1ipoo=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/ByredoVanilleAntique-d3c4c527d8894a43a4451f0d2cf57190.jpg"
         },
         {
           "id": 16, "title": "Krigler Good Fir 11" ,
           "description": "This gorgeous daytime scent is inspired by pine, with notes of pink pepper",
           "scents": ["orange","tobacco"],
-          "price": 615,
+          "price": 120,
+          "reducePrice": 100,
           "image": "https://www.byrdie.com/thmb/2uDICQ4THVkgaj_9Jilx8QBIVCk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/kriglergoodfir11eaudeparfum-e0ae6c25aeaf4891b00b1989fd75d964.png"
         }
       ]
