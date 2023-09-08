@@ -705,36 +705,36 @@
           "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758959-screen-shot-2023-05-10-at-6-48-54-pm-645c1f5fed844.png?crop=1xw:0.9955686853766618xh;center,top&resize=980:*"
         },
         {
-          "id": 13, "title": "Tom Ford Bitter Peach",
-          "description": "A scent blend to inspire a cozy, Sunday state-of-mind. Comforting. Addicting",
-          "scents": ["peach","coconut"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/ChQpP6HjSvnlfkPBTciEc2th88E=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/tom-ford-bitter-peach-eau-de-parfum-dc44a323a37f484998987371f46e4b0f.jpg"
+          "id": 13, "title": "Maison Francis Kurkdjian Paris",
+          "description": "This brand, named for its own perfumer—a rarity!—created one of the most iconic fragrances",
+          "scents": ["sandal","wood"],
+          "price": 220,
+          "reducePrice": 200,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1661878253-mfk-724-eau-de-parfum-70ml-2-1661878237.jpg?crop=0.824xw:0.822xh;0.0961xw,0.178xh&resize=980:*"
         },
         {
-          "id": 14, "title": "Le Labo Patchouli 24" ,
-          "description": "This is really one of those scents that surprises you when you first smell it—because yes",
-          "scents": ["birch","leather"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/3d_2TTQmGAEV2KyvPWH9kEdkOMw=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/le-labo-patchouli-24-eau-de-parfum-b1fd6169844d48718664b90f06ab03c5.jpg"
+          "id": 14, "title": "Kavali Vanilla" ,
+          "description": "Captivate the senses with VANILLA | 28, a masterpiece of refined and cultivated nuance",
+          "scents": ["amber","vanilla"],
+          "price": 100,
+          "reducePrice": 89,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683856355-1667239763-kayali-vanilla-28-1667239755.jpg?crop=1xw:1.00xh;center,top&resize=980:*"
         },
         {
-          "id": 15, "title": "Byredo Vanille Antique" ,
-          "description": "It’s warm and sweet without being overpowering",
-          "scents": ["cashmere","amber"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/i0x90HEk3WcDwF6cKwz1pN1ipoo=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/ByredoVanilleAntique-d3c4c527d8894a43a4451f0d2cf57190.jpg"
+          "id": 15, "title": "Chanel Coco Madmoiselle" ,
+          "description": "A sparkling ambery fragrance that recalls a daring young Coco Chanel",
+          "scents": ["orange","floral"],
+          "price": 140,
+          "reducePrice": 129,
+          "image": "https://puls-img.chanel.com/w_1600,c_limit,f_auto,q_auto:good/1673273242695-03edpjpg_1620x1440.jpg"
         },
         {
-          "id": 16, "title": "Krigler Good Fir 11" ,
-          "description": "This gorgeous daytime scent is inspired by pine, with notes of pink pepper",
-          "scents": ["orange","tobacco"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/2uDICQ4THVkgaj_9Jilx8QBIVCk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/kriglergoodfir11eaudeparfum-e0ae6c25aeaf4891b00b1989fd75d964.png"
+          "id": 16, "title": "Tom Ford Oud Wood" ,
+          "description": "Oud Wood is contained in a smoked-grey, Private Blend bottle",
+          "scents": ["spices","wood"],
+          "price": 295,
+          "reducePrice": 249,
+          "image": "https://www.sephora.pl/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwf89bc593/images/hi-res/SKU/SKU_3/283249_swatch.jpg?sw=585&sh=585&sm=fit"
         }
       ]
     }
