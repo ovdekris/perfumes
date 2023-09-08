@@ -641,44 +641,44 @@
           "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758565-1664387075-chanel-chance-1664387052.png?crop=1xw:1.00xh;center,top&resize=980:*"
         },
         {
-          "id": 5, "title": "D.S. & Durga I Don't Know What" ,
-          "description": "Beauty writer Taylore Glynn wears fragrance for herself first and foremost",
-          "scents": ["ambrox","bergamot"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/IhzexVSFvNKAicoRJ2kLIFvXC_g=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/d.s.durgaidontknowwhateaudeparfum-271c1c1e6a4e48d98eff10e08e039652.png"
+          "id": 5, "title": "Byredo Young Rose" ,
+          "description": "Young Rose is an olfactive diary for those who are writing their own future",
+          "scents": ["roses","musk"],
+          "price": 310,
+          "reducePrice": 290,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758298-1644332436-nicolette-mason-byredo-perfume-1644332373.png?crop=1xw:1.00xh;center,top&resize=980:*"
         },
         {
-          "id": 6, "title": "The Maker Stag" ,
-          "description": "This juice boasts bold notes like agarwood, leather, and palo santo",
-          "scents": ["bergamot","leather"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/17s2GSvtDN5NzIXtxeJCB7Ki4pM=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/themakerstageaudeparfum-1562e39dd36a4306b1c4bac78af3804c.png"
+          "id": 6, "title": "Phlur Missing Person" ,
+          "description": "Missing Person is pure, provocative, and undeniably familiar",
+          "scents": ["bergamot","wood"],
+          "price": 100,
+          "reducePrice": 84,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758731-1683748948-1672953757-screen-shot-2023-01-05-at-4-22-04-pm-1672953740.png?crop=0.860xw:1xh;center,top&resize=980:*"
         },
         {
-          "id": 7, "title": "Chris Collins Danse Sauvage" ,
-          "description": "As you can imagine, that scent profile creates a powerful, intoxicating experience",
-          "scents": ["vanilla","oud"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/-gGR97YwZalH3Hf4tah8FTXSGnk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/chriscollinsdansesauvage-9fa92e5cc7f54fa585c77bafc6f82f68.png"
+          "id": 7, "title": "Loewe Agua" ,
+          "description": "Loewe Agua Miami combines notes of lemon, tangerine and neroli.",
+          "scents": ["lemon","neroli"],
+          "price": 110,
+          "reducePrice": 90,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758394-P000011X13_0000_1F.jpg?crop=0.917xw:0.607xh;0.0391xw,0.277xh&resize=980:*"
         },
         {
-          "id": 8, "title": "Parfums de Marly Oriana" ,
-          "description": "Notes of mandarin and grapefruit conjure images of enjoying drinks in the sunshine ",
-          "scents": ["musk","bergamot"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/T1NgwBem6bhC6glLslrDf-cZim4=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/parfumsdemarlyorianaeaudeparfum-1c25e9df19db4e5dbbc79f00880c8888.png"
+          "id": 8, "title": "Ellis Brooklyn" ,
+          "description": "Inspired by tan lines, ripe fruit, and bare skin",
+          "scents": ["jasmine","figa"],
+          "price": 155,
+          "reducePrice": 130,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758439-1667842351-s2552511-main-zoom-1667842342.png?crop=1xw:1.00xh;center,top&resize=980:*"
         },
         {
-          "id": 9, "title": "Kilian Paris Love, Don't Be Shy" ,
-          "description": "The perfect summer evening perfume, this sweet but not syrupy scent highlights notes",
-          "scents": ["vanilla","blossom"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/YBIJM1MeEcG8004iUFdQtgADwmA=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/kilianparislovedontbeshyeaudeparfum-3e212166295f4996b931bc82dc07d80e.png"
+          "id": 9, "title": "Tom Ford Velvet Orchid" ,
+          "description": "This perfume is lavished with shimmering freshness, honey, rum",
+          "scents": ["orchid","rum"],
+          "price": 155,
+          "reducePrice": 135,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758879-screen-shot-2023-05-10-at-6-47-43-pm-645c1f182b4f4.png?crop=1xw:0.9950900163666121xh;center,top&resize=980:*"
         },
         {
           "id": 10, "title": "Tom Ford Tobacco Vanille" ,
@@ -689,20 +689,20 @@
           "image": "https://www.sephora.pl/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw23c4f125/images/hi-res/SKU/SKU_2/220534_swatch.jpg?sw=585&sh=585&sm=fit"
         },
         {
-          "id": 11, "title": "Jo Malone Myrrh & Tonka Cologne" ,
-          "description": "The potent almond, myrrh, and vanilla scent melds beautifully with your skin's unique ",
-          "scents": ["almond","lavender"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "https://www.byrdie.com/thmb/JiB81smHyGUysWLAK-3Vt49e8b0=/fit-in/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/jo-malone-london-myrrh-tonka-cologne-intense-b03ef40bc23842bcb96ff15a1ecf729b.jpg"
+          "id": 11, "title": "Liis Studied" ,
+          "description": "The scents from Liis are meant to be worn as a second skin",
+          "scents": ["cashmere","orris"],
+          "price": 170,
+          "reducePrice": 155,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1628707529-Studied_50ml_2048x.jpg?crop=1.00xw:0.803xh;0,0.109xh&resize=980:*"
         },
         {
-          "id": 12, "title": "Byredo Bibliotique" ,
-          "description": "Your living space will soon be diffused with sophisticated floral",
-          "scents": ["wood","violet"],
-          "price": 120,
-          "reducePrice": 100,
-          "image": "Top notes of plum and cinnamon lend a sweet touch to the otherwise woody and intense blend of leather"
+          "id": 12, "title": "Mugler Angil" ,
+          "description": "Introducing Angel Elixir Eau de Parfum by MUGLER, a woody floral ",
+          "scents": ["orange","pepper"],
+          "price": 150,
+          "reducePrice": 134,
+          "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683758959-screen-shot-2023-05-10-at-6-48-54-pm-645c1f5fed844.png?crop=1xw:0.9955686853766618xh;center,top&resize=980:*"
         },
         {
           "id": 13, "title": "Tom Ford Bitter Peach",
