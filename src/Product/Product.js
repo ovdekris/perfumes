@@ -35,10 +35,18 @@ function Product({props}){
                             130$
                         </div>
                         <div className={style.content__count}>
-                            Count
+                           <div className={style.content__count__title}> Quantity</div>
+                            <div className={style.content__counter}>
+                                <div className={style.content__counter__item}>-</div>
+                                <div className={style.content__counter__number}>1</div>
+                                <div className={style.content__counter__item}>+</div>
+                            </div>
                         </div>
-                        <div className={style.button}>
-                            Buy
+                        <div className={style.button__item}>
+                        <div className={style.button__buy}>
+                            Add to basket
+                        </div>
+                            <div className={style.button__like}>like</div>
                         </div>
                     </div>
                 </div>

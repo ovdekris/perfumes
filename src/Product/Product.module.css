@@ -38,3 +38,55 @@
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+.content__counter{
+    display: flex;
+    height: 5vh;
+}
+.content__count{
+    margin-bottom: 20px;
+}
+.content__count__title{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.content__counter__item{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 40px;
+    font-size: 18px;
+    color: gray;
+    font-weight: bolder;
+}
+.content__counter__number{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    width: 55px;
+    font-size: 18px;
+}
+.button__item{
+    display: flex;
+}
+.button__buy{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 6vh;
+    font-weight: bolder;
+}
+.button__buy:hover{
+    background-color: #FC46AA;
+}
