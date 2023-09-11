@@ -1,9 +1,9 @@
 import style from "./CardProduct.module.css";
 import {AiOutlineHeart} from "react-icons/ai";
-
+import {Link} from "react-router-dom";
 function CardProduct({props}){
     return(
-        <div className={style.content__item} key={props.id}>
+        <Link className={style.content__item} key={props.id} to={`/product/${props.id}`}>
             <div className={style.content__heart}>
                 <AiOutlineHeart className={style.heart}/>
             </div>
@@ -23,7 +23,7 @@ function CardProduct({props}){
                 </div>
             </div>
             <div className={style.price}>{props.price}$</div>
-        </div>
+        </Link>
     )
 }
 

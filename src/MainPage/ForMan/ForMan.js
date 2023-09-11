@@ -3,7 +3,6 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import style from "./ForMan.module.css";
 import CardProduct from "../CardProduct/CardProduct";
-
 function ForMan({props}){
    return(
        <div>
