@@ -2,7 +2,7 @@ import Module from "../Module/Module";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import style from "../ForWoman/ForWoman.module.css"
-import CardProduct from "../CardProduct/CardProduct";
+import CardProductSale from "./CardProductSale";
 
 function Sale({props}){
     return(
@@ -17,7 +17,7 @@ function Sale({props}){
                 </div>
                 <div className={style.content}>
                     {props.map(record => (
-                        <CardProduct key={props.id} props={record} className={style.content__item}/>
+                        <CardProductSale key={props.id} props={record} className={style.content__item}/>
                     ))}
                 </div>
             </div>
