@@ -1,6 +1,40 @@
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
 .content{
-    height: 100vh;
-    margin: 30px auto 0 auto;
+    height: 200vh;
+    margin: 60px auto 0 auto;
     max-width: 1280px;
     position: relative;
+}
+.content__image{
+    display: flex;
+    padding: 0 100px;
+}
+.content__img{
+    width: 45%;
+}
+.content__img img{
+    height: 65vh;
+    border-radius: 10px;
+}
+.content__title{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+.content__availabality{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.content__range{
+    margin-bottom: 10px;
+}
+.content__range__item{
+    color: #FC46AA;
+    font-size: 20px;
+}
+.content__price{
+    font-size: 20px;
+    margin-bottom: 15px;
 }
