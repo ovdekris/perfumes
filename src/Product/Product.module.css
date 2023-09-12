@@ -1,6 +1,9 @@
 *{
     font-family: 'Libre Franklin', sans-serif;
 }
+.content__image__description{
+    width: 50%;
+}
 .content{
     height: 200vh;
     margin: 60px auto 0 auto;
@@ -21,14 +24,14 @@
 .content__title{
     font-size: 24px;
     font-weight: bolder;
-    margin: 15px 0;
+    margin: 10px 0 20px 0;
 }
 .content__availabality{
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .content__range{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .content__range__item{
     color: #FC46AA;
@@ -36,7 +39,7 @@
 }
 .content__price{
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .content__counter{
@@ -80,7 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 70%;
     color: white;
     background-color: black;
     border-radius: 10px;
@@ -89,4 +92,20 @@
 }
 .button__buy:hover{
     background-color: #FC46AA;
+}
+.button__like{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.button__like__heart{
+    font-size: 23px;
+}
+.button__like__heart:hover{
+    color: #FC46AA;
 }

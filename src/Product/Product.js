@@ -1,7 +1,7 @@
 import Header from "../MainPage/Header/Header";
 import Module from "../MainPage/Module/Module"
 import Footer from "../MainPage/Footer/Footer";
-import {AiOutlineStar,AiFillStar} from "react-icons/ai";
+import {AiOutlineStar,AiFillStar,AiOutlineHeart} from "react-icons/ai";
 import style from "./Product.module.css";
 function Product({props}){
     const data=props.forMen;
@@ -46,7 +46,9 @@ function Product({props}){
                         <div className={style.button__buy}>
                             Add to basket
                         </div>
-                            <div className={style.button__like}>like</div>
+                            <div className={style.button__like}>
+                                <AiOutlineHeart className={style.button__like__heart}/>
+                            </div>
                         </div>
                     </div>
                 </div>
