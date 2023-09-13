@@ -67,8 +67,16 @@ function Product({props}){
                             100 customers bought this product</div>
                     </div>
                 </div>
-                <div>
-                    Description
+                <div className={style.description}>
+                    <div className={style.description__container}>
+                    <div className={style.description__title}>Description</div>
+                    <div className={style.description__item}>The fragrance has two characteristic features: passion and seduction. n the top notes of the perfume, grapefruit, mandarin and strong marine accents make you feel fresh. The heart contains patchouli, jasmine and amber. In the deep notes, guaiac wood provides the final masculine accent. This will be your new passion, creating an irresistible masculine style.</div>
+                    <div className={style.description__item}> <b> Fragrance family:</b> fresh
+                        Preferred time of day: day
+                        Top notes: grapefruit, sea notes, mandarin</div>
+                    <div className={style.description__item}><b>Heart notes</b>: bay leaf, jasmine</div>
+                    <div className={style.description__item}><b>Base notes:</b> guaiac wood, oakmoss, patchouli, amber</div>
+                    </div>
                 </div>
             </div>
             <Footer/>
