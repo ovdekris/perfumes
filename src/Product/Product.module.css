@@ -5,7 +5,7 @@
     width: 50%;
 }
 .content{
-    height: 200vh;
+    height: 100vh;
     margin: 60px auto 0 auto;
     max-width: 1280px;
     position: relative;
@@ -47,7 +47,7 @@
     height: 5vh;
 }
 .content__count{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .content__count__title{
     font-size: 16px;
@@ -108,4 +108,20 @@
 }
 .button__like__heart:hover{
     color: #FC46AA;
+}
+.button__item{
+    margin-bottom: 40px;
+}
+.bought__item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 8px;
+    width: 80%;
+    font-size: 14px;
+}
+.basket{
+    color: black;
+    font-size: 22px;
+    margin-right: 5px;
 }

@@ -2,8 +2,11 @@ import Header from "../MainPage/Header/Header";
 import Module from "../MainPage/Module/Module"
 import Footer from "../MainPage/Footer/Footer";
 import {AiOutlineStar,AiFillStar,AiOutlineHeart} from "react-icons/ai";
+import {BiSolidShoppingBags} from "react-icons/bi"
 import style from "./Product.module.css";
+import {useState} from "react";
 function Product({props}){
+    const [count,setCount]=useState(0);
     const data=props.forMen;
     data.map(record => (
         record.title
@@ -37,9 +40,18 @@ function Product({props}){
                         <div className={style.content__count}>
                            <div className={style.content__count__title}> Quantity</div>
                             <div className={style.content__counter}>
-                                <div className={style.content__counter__item}>-</div>
-                                <div className={style.content__counter__number}>1</div>
-                                <div className={style.content__counter__item}>+</div>
+                                <div className={style.content__counter__item} onClick={()=>{
+                                    if(count<=0){
+                                        return count
+                                    }
+                                    else {
+                                        setCount(count-1)
+                                    }
+                                }}>-</div>
+                                <div className={style.content__counter__number}>{count}</div>
+                                <div className={style.content__counter__item} onClick={()=>{
+                                    setCount(count+1)
+                                }}>+</div>
                             </div>
                         </div>
                         <div className={style.button__item}>
@@ -50,6 +62,9 @@ function Product({props}){
                                 <AiOutlineHeart className={style.button__like__heart}/>
                             </div>
                         </div>
+                        <div className={style.bought__item}>
+                            <BiSolidShoppingBags className={style.basket}/>
+                            100 customers bought this product</div>
                     </div>
                 </div>
                 <div>
