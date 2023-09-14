@@ -5,12 +5,12 @@ import {AiOutlineStar,AiFillStar,AiOutlineHeart} from "react-icons/ai";
 import {BiSolidShoppingBags} from "react-icons/bi"
 import style from "./Product.module.css";
 import {useState} from "react";
+import {useParams} from "react-router-dom";
 function Product({props}){
     const [count,setCount]=useState(0);
-    const data=props.forMen;
-    data.map(record => (
-        record.title
-    ))
+    console.log(props);
+    const {id}=useParams();
+    console.log(id);
     return(
         <div>
             <Module/>
@@ -69,7 +69,11 @@ function Product({props}){
                 </div>
                 <div className={style.description}>
                     <div className={style.description__container}>
-                    <div className={style.description__title}>Description</div>
+                    <div className={style.description__title}>
+                        <div className={style.description__title__border}></div>
+                        Description
+                        <div className={style.description__title__border}></div>
+                    </div>
                     <div className={style.description__item}>The fragrance has two characteristic features: passion and seduction. n the top notes of the perfume, grapefruit, mandarin and strong marine accents make you feel fresh. The heart contains patchouli, jasmine and amber. In the deep notes, guaiac wood provides the final masculine accent. This will be your new passion, creating an irresistible masculine style.</div>
                     <div className={style.description__item}> <b> Fragrance family:</b> fresh
                         Preferred time of day: day

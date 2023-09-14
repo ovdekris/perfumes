@@ -46,8 +46,8 @@ function App() {
               <Route path="signature" element={<Signature props={dataSignature}/>}/>
               <Route path="likes" element={<Likes/>}/>
               <Route path="backets" element={<Backets/>}/>
-              <Route path="profile" element={<Profile/>}/>
-              <Route path="/product/:id" element={<Product props={records}/>}/>
+              <Route path="profile" element={<Profile props={data}/>}/>
+              <Route path="/product/:category/:id" element={<Product/>}/>
       </Routes>
       </BrowserRouter>
   );
