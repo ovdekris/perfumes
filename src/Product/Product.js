@@ -9,7 +9,13 @@ import {useLocation, useParams} from "react-router-dom";
 function Product({props}){
     const [count,setCount]=useState(0);
     const location=useLocation();
-    console.log(location.pathname)
+    console.log(props.forMen);
+    //express regulary
+    const inputString = location.pathname;
+    const regex = /\/([^/]+)/;
+    const match = inputString.match(regex);
+    const extractedText = match[1];
+
     return(
         <div>
             <Module/>

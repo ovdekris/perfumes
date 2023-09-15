@@ -49,7 +49,7 @@ function App() {
               <Route path="likes" element={<Likes/>}/>
               <Route path="backets" element={<Backets/>}/>
               <Route path="profile" element={<Profile props={data}/>}/>
-              <Route path="/forwoman/:id" element={<Product/>}/>
+              <Route path="/forwoman/:id" element={<Product props={records}/>}/>
       </Routes>
       </BrowserRouter>
   );
