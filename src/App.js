@@ -12,6 +12,7 @@ import Profile from "./MainPage/Header/Profile/Profile";
 import Likes from "./MainPage/Header/Likes/Likes";
 import Product from "./Product/Product"
 import {useEffect, useState} from "react";
+import NotFound from "./MainPage/NotFound/NotFound";
 function App() {
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
@@ -38,6 +39,7 @@ function App() {
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Main/>}/>
+              <Route path="*" element={<NotFound/>}/>
               <Route path="sale" element={<Sale props={dataSale}/>}/>
               <Route path="forman" element={<ForMan props={data}/>}/>
               <Route path="forwoman" element={<ForWoman props={dataWoman}/>}/>
@@ -47,7 +49,7 @@ function App() {
               <Route path="likes" element={<Likes/>}/>
               <Route path="backets" element={<Backets/>}/>
               <Route path="profile" element={<Profile props={data}/>}/>
-              <Route path="/product/:category/:id" element={<Product/>}/>
+              <Route path="/forwoman/:id" element={<Product/>}/>
       </Routes>
       </BrowserRouter>
   );

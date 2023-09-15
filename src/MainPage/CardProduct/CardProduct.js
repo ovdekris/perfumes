@@ -1,9 +1,11 @@
 import style from "./CardProduct.module.css";
 import {AiOutlineHeart} from "react-icons/ai";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 function CardProduct({props}){
+    const location=useLocation();
+    console.log(location.pathname)
     return(
-        <Link className={style.content__item} key={props.id} to={`/product/${props.id}`}>
+        <Link className={style.content__item} key={props.id} to={`${location.pathname}/${props.id}`}>
             <div className={style.content__heart}>
                 <AiOutlineHeart className={style.heart}/>
             </div>

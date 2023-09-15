@@ -5,12 +5,11 @@ import {AiOutlineStar,AiFillStar,AiOutlineHeart} from "react-icons/ai";
 import {BiSolidShoppingBags} from "react-icons/bi"
 import style from "./Product.module.css";
 import {useState} from "react";
-import {useParams} from "react-router-dom";
+import {useLocation, useParams} from "react-router-dom";
 function Product({props}){
     const [count,setCount]=useState(0);
-    console.log(props);
-    const {id}=useParams();
-    console.log(id);
+    const location=useLocation();
+    console.log(location.pathname)
     return(
         <div>
             <Module/>
