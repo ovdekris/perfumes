@@ -32,7 +32,7 @@ function App() {
     const data=records.forman;
     const dataWoman=records.forwoman;
     const dataFragrances=records.homefragrances;
-    const dataBodyMist=records.bodyMist;
+    const dataBodyMist=records.bodymist;
     const dataSignature=records.signature;
     const dataSale=records.sale;
   return (
@@ -50,6 +50,12 @@ function App() {
               <Route path="backets" element={<Backets/>}/>
               <Route path="profile" element={<Profile props={data}/>}/>
               <Route path="/forwoman/:id" element={<Product props={records}/>}/>
+              <Route path="/forman/:id" element={<Product props={records}/>}/>
+              <Route path="/bestseller/:id" element={<Product props={records}/>}/>
+              <Route path="/homefragrances/:id" element={<Product props={records}/>}/>
+              <Route path="/bodymist/:id" element={<Product props={records}/>}/>
+              <Route path="/signature/:id" element={<Product props={records}/>}/>
+              <Route path="/sale/:id" element={<Product props={records}/>}/>
       </Routes>
       </BrowserRouter>
   );

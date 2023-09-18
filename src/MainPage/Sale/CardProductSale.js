@@ -1,9 +1,11 @@
 import style from "../CardProduct/CardProduct.module.css"
 import {AiOutlineHeart} from "react-icons/ai";
 import styleSale from "./CardProductSale.module.css"
+import {Link, useLocation} from "react-router-dom"
 function CardProduct({props}){
+    const location=useLocation();
     return(
-        <div className={style.content__item} key={props.id}>
+        <Link className={style.content__item} to={`${location.pathname}/${props.id}`}>
             <div className={`${style.content__heart}, ${styleSale.sale}`}>
                 <div className={styleSale.sale__item}>SALE</div>
                 <AiOutlineHeart className={style.heart}/>
@@ -27,7 +29,7 @@ function CardProduct({props}){
             <div className={styleSale.price}>{props.price}$</div>
             <div className={styleSale.price__reduce}>{props.reducePrice}$</div>
             </div>
-        </div>
+        </Link>
     )
 }
 

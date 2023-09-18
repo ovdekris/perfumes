@@ -8,26 +8,54 @@ import {useState} from "react";
 import {useLocation, useParams} from "react-router-dom";
 function Product({props}){
     const [count,setCount]=useState(0);
+    //take location
     const location=useLocation();
-    //express regulary
-    const inputString = location.pathname;
+    const pathName=location.pathname;
+    // express regulary for string
+    const inputString = pathName;
     const regex = /\/([^/]+)/;
     const match = inputString.match(regex);
     const extractedText = match[1];
+    //express regulary for number
+    const inputNumber = location.pathname;
+    const regular = /\/(\d+)$/;
+    const matchNumber = inputNumber.match(regular);
+    let extractedNumber;
+    if (matchNumber) {
+        extractedNumber = matchNumber[1];
+
+    }
+    //Variable
     let data;
-    if(extractedText==='forwoman'){
-        data=props.forwoman;
+    let result;
+    //Check and result
+    switch (extractedText) {
+        case 'forwoman':
+            data = props.forwoman;
+            break;
+        case 'forman':
+            data = props.forman;
+            break;
+        case 'bestseller':
+            data = props.bestseller;
+            break;
+        case 'homefragrances':
+            data = props.homefragrances;
+            break;
+            case 'sale':
+            data = props.sale;
+            break;
+        case 'signature':
+            data = props.signature;
+            break;
+        case 'bodymist':
+            data = props.bodymist;
+            break;
+        default:
+            data = null;
+            break;
     }
-    const inputsString = "http://localhost:3000/forwoman/2";
-    const regexs = /\/(\d+)$/; // Регулярное выражение для извлечения последней цифры после последнего слеша
-    const matchs = inputsString.match(regex);
-    if (matchs) {
-        const extractedNumber = matchs[1];
-        console.log(extractedNumber); // Выведет "2"
-    } else {
-        console.log("Совпадений не найдено");
-    }
-    // console.log(data)
+    result=data[extractedNumber-1];
     return(
         <div>
             <Module/>
@@ -35,11 +63,11 @@ function Product({props}){
             <div className={style.content}>
                 <div className={style.content__image}>
                    <div className={style.content__img}>
-                       <img src="https://assets.vogue.com/photos/6054ce48ba2b50871bd1d368/3:4/w_640,c_limit/slide_8.jpg" alt="image"/>
+                       <img src={result.image} alt="image"/>
                    </div>
                     <div className={style.content__image__description}>
                         <div className={style.content__title}>
-                            Dior Sauvage - pefume for Man
+                            {result.title} - pefume for Man
                         </div>
                         <div  className={style.content__range}>
                             <AiFillStar className={style.content__range__item}/>
@@ -52,7 +80,7 @@ function Product({props}){
                             Availabality:   available
                         </div>
                         <div className={style.content__price}>
-                            130$
+                            {result.price}$
                         </div>
                         <div className={style.content__count}>
                            <div className={style.content__count__title}> Quantity</div>

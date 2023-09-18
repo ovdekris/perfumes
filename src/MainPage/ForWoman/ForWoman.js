@@ -5,7 +5,6 @@ import style from "./ForWoman.module.css";
 import CardProduct from "../CardProduct/CardProduct";
 
 function ForWoman({props}){
-    console.log(props)
     return(
         <div>
             <Module/>

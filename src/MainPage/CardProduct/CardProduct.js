@@ -3,7 +3,6 @@ import {AiOutlineHeart} from "react-icons/ai";
 import {Link, useLocation} from "react-router-dom";
 function CardProduct({props}){
     const location=useLocation();
-    console.log(location.pathname)
     return(
         <Link className={style.content__item} key={props.id} to={`${location.pathname}/${props.id}`}>
             <div className={style.content__heart}>
