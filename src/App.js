@@ -29,9 +29,9 @@ function App() {
     if (isLoading) {
         return <p>Loading...</p>; // Показать индикатор загрузки
     }
-    const data=records.forMen;
-    const dataWoman=records.forWoman;
-    const dataFragrances=records.homeFragrances;
+    const data=records.forman;
+    const dataWoman=records.forwoman;
+    const dataFragrances=records.homefragrances;
     const dataBodyMist=records.bodyMist;
     const dataSignature=records.signature;
     const dataSale=records.sale;

@@ -9,13 +9,25 @@ import {useLocation, useParams} from "react-router-dom";
 function Product({props}){
     const [count,setCount]=useState(0);
     const location=useLocation();
-    console.log(props.forMen);
     //express regulary
     const inputString = location.pathname;
     const regex = /\/([^/]+)/;
     const match = inputString.match(regex);
     const extractedText = match[1];
-
+    let data;
+    if(extractedText==='forwoman'){
+        data=props.forwoman;
+    }
+    const inputsString = "http://localhost:3000/forwoman/2";
+    const regexs = /\/(\d+)$/; // Регулярное выражение для извлечения последней цифры после последнего слеша
+    const matchs = inputsString.match(regex);
+    if (matchs) {
+        const extractedNumber = matchs[1];
+        console.log(extractedNumber); // Выведет "2"
+    } else {
+        console.log("Совпадений не найдено");
+    }
+    // console.log(data)
     return(
         <div>
             <Module/>

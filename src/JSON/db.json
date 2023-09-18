@@ -37,7 +37,7 @@
           "image": "image"
         }
       ],
-      "forMan": [
+      "forman": [
         {
           "id": 1, "title": "Bleu de Chanel" ,
           "description": " Bleu de Chanel  is a men's fragrance created by Jacques",
@@ -151,7 +151,7 @@
           "image": "https://assets.vogue.com/photos/618d5c4f9746c91405ace34b/3:4/w_640,c_limit/slide_3.jpg"
         }
       ],
-      "forWoman": [
+      "forwoman": [
         {
           "id": 1, "title": "Chanel N°5" ,
           "description": "Beaux’s blend of rose, jasmine, and synthetic aldehydes, an ingredient No. 5",
@@ -265,7 +265,7 @@
           "image": "https://assets.vogue.com/photos/6435add9fc261b4162402216/3:4/w_640,c_limit/slide_5.jpg"
         }
       ],
-      "homeFragrances": [
+      "homefragrances": [
         {
           "id": 1, "title": "Grey Essential Oil Electric Aroma Diffuser" ,
           "description": "It's design includes a ceramic cover to conceal the diffuser, in a neutral grey",
@@ -379,7 +379,7 @@
           "image": "https://image.harrods.com/baobab-collection-totem-feathers-diffuser-2000ml_15416406_27296332_2048.jpg"
         }
       ],
-      "bodyMist": [
+      "bodymist": [
         {
           "id": 1, "title": "Caudalie Thé des Vignes Fresh" ,
           "description": "Notes of neroli and orange blossom give it a fresh, citrusy kick",
