@@ -1,7 +1,8 @@
 import style from "./Header.module.css"
 import React, {useState} from "react";
 import logo from "./logo-2.png";
-import {BiBasket, BiHeart, BiUser} from "react-icons/bi";
+import  {BiHeart, BiUser} from "react-icons/bi";
+import {SlBasket} from "react-icons/sl"
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
 import {Link} from "react-router-dom";
 function Header(){
@@ -28,8 +29,9 @@ function Header(){
                     <Link to="/likes" className={style.link}>
                     <BiHeart className={style.content__client__part__icon}/>
                     </Link>
-                    <Link to="/backets" className={style.link}>
-                    <BiBasket className={style.content__client__part__icon}/>
+                    <Link to="/backets" className={`${style.link} ${style.link__basket__container}`}>
+                    <SlBasket className={style.content__client__part__icon}/>
+                        <div className={style.link__basket}>1</div>
                     </Link>
                 </div>
             </div>

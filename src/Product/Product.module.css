@@ -155,6 +155,9 @@
 .description__title__border:nth-child(2){
     width: 100%;
 }
+.content__price__reduce{
+    color: red;
+}
 @media (min-width: 765px) and (max-width: 1024px) {
     .content{
         padding-left: 20px;

@@ -65,10 +65,12 @@
     overflow: hidden;
 }
 .price{
+    font-weight: bolder;
     text-align: center;
     color: black;
+    opacity: 0.9;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 .scents{
     display: flex;
