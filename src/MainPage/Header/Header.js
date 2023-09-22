@@ -1,12 +1,17 @@
 import style from "./Header.module.css"
-import React, {useState} from "react";
+import React, {useContext, useState} from "react";
 import logo from "./logo-2.png";
 import  {BiHeart, BiUser} from "react-icons/bi";
 import {SlBasket} from "react-icons/sl"
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
+import {CustomContext} from "../Context/Context";
+import BasketsZero from "./Backets/BasketsZero";
 function Header(){
-    const[menuActive, setMenuActive]=useState(false)
+    const[menuActive, setMenuActive]=useState(false);
+    const[show,setShow]=useState(false);
+    const {basket}=useContext(CustomContext);
+    const navigate=useNavigate();
     return (<>
         <div className={style.container}>
             <div className={style.content}>
@@ -29,10 +34,17 @@ function Header(){
                     <Link to="/likes" className={style.link}>
                     <BiHeart className={style.content__client__part__icon}/>
                     </Link>
-                    <Link to="/backets" className={`${style.link} ${style.link__basket__container}`}>
+                    <div className={`${style.link} ${style.link__basket__container}`} onClick={()=>{
+
+                        if (basket.length){
+                            navigate('/basket')
+                        }else {
+                            setShow(true)
+                        }
+                    }}>
                     <SlBasket className={style.content__client__part__icon}/>
-                        <div className={style.link__basket}>1</div>
-                    </Link>
+                        <div className={style.link__basket}>{basket.length}</div>
+                    </div>
                 </div>
             </div>
             <div className={style.content__menu}>
@@ -59,6 +71,7 @@ function Header(){
                     </ul>
                 </menu>
             </div>
+            <BasketsZero show={show} setShow={setShow}/>
         </div>
 
         </>
