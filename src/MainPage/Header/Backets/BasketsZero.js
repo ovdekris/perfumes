@@ -1,7 +1,7 @@
-
+import style from "./BasketZero.module.css";
 function BasketsZero({show,setShow}){
     return(
-        <div style={{display: show? 'flex':'none'}}>
+        <div style={{display: show? 'flex':'none'}} className={style.container}>
             BasketZero
         </div>
     )

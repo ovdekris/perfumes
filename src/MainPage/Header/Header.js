@@ -13,7 +13,7 @@ function Header(){
     const {basket}=useContext(CustomContext);
     const navigate=useNavigate();
     return (<>
-        <div className={style.container}>
+        <div className={style.container} >
             <div className={style.content}>
                 <div className={style.burger_container}>
                 <div className={style.burger} onClick={()=>{setMenuActive(!menuActive)}}>
