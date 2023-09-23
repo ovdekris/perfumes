@@ -1,11 +1,29 @@
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
+    height: 28vh;
     position: fixed;
     z-index: 2;
     right: 40%;
-    width: 30%;
+    width: 28%;
     background-color: white;
+    top: 40%;
+    padding: 40px 20px 20px 20px;
+}
+.content{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.content__basket{
+    color: #FC46AA;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.content__title{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.icon{
+    height: 80px;
 }
