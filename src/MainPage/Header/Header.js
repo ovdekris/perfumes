@@ -9,8 +9,7 @@ import {CustomContext} from "../Context/Context";
 import BasketsZero from "./Backets/BasketsZero";
 function Header(){
     const[menuActive, setMenuActive]=useState(false);
-    const[show,setShow]=useState(false);
-    const {basket}=useContext(CustomContext);
+    const {basket,show,setShow}=useContext(CustomContext);
     const navigate=useNavigate();
     return (<>
         <div className={style.container} >
@@ -70,10 +69,9 @@ function Header(){
                         </li>
                     </ul>
                 </menu>
+                <BasketsZero show={show} setShow={setShow}/>
             </div>
-            <BasketsZero show={show} setShow={setShow}/>
         </div>
-
         </>
     )
 }

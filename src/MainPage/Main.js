@@ -1,17 +1,19 @@
 import Module from "./Module/Module";
 import style from "./Main.module.css"
-import { useEffect, useState } from "react";
+import {useContext, useEffect, useState} from "react";
 import Header from "./Header/Header";
 import Slider from "./Slider/Slider";
 import Category from "./Category/Category";
 import Bestseller from "./Bestseller/Bestseller";
 import Footer from "./Footer/Footer";
+import {CustomContext} from "./Context/Context";
 
 function Main({props}) {
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
     const [openModule, setOpenModule] = useState(true);
     const url='http://localhost:5000/data';
+    const {show,setShow}=useContext(CustomContext);
     useEffect(() => {
         fetch(url)
             .then(response => response.json())
@@ -24,10 +26,12 @@ function Main({props}) {
     if (isLoading) {
         return <p>Loading...</p>; // Показать индикатор загрузки
     }
+    if (setShow){
+        console.log("Do it")
+    }
     const data=records.favorites;
-    const dataBestseller=records.bestseller;
     return (
-        <div className={style.container}>
+        <div className={style.container} style={{position: setShow? 'fixed':'relative'}}>
                             {openModule && <Module open={openModule} setOpenModule={setOpenModule} />}
                             <Header props={data} />
                             <Slider />
