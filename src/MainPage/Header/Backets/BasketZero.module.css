@@ -6,7 +6,7 @@
     justify-content: center;
     height: 30vh;
     position: fixed;
-    z-index: 2;
+    z-index: 1002;
     right: 35%;
     width: 28%;
     background-color: white;
@@ -43,4 +43,24 @@
     font-size: 14px;
     font-weight: bolder;
     border-radius: 10px;
+}
+.cotent__button__close{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+
+}
+.cotent__button__close:before, .cotent__button__close:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background: #EB1E27;
+}
+.cotent__button__close:before {
+    transform: rotate(45deg);
+}
+.cotent__button__close:after {
+    transform: rotate(-45deg);
 }

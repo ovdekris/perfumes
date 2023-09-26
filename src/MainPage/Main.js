@@ -31,8 +31,8 @@ function Main({props}) {
     }
     const data=records.favorites;
     return (
-        <div className={style.container} style={{position: setShow? 'fixed':'relative'}}>
-                            {openModule && <Module open={openModule} setOpenModule={setOpenModule} />}
+        <div className={style.container} style={{position: show? 'fixed':'relative'}}>
+                            {openModule && <Module  setOpenModule={setOpenModule} />}
                             <Header props={data} />
                             <Slider />
                             <Category props={data} />}
