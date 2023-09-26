@@ -5,9 +5,13 @@ export const CustomContext=createContext();
 function Context(props){
     const [basket,setBasket]=useState([]);
     const[show,setShow]=useState(false);
+    const addBasket=(product)=>{
+        setBasket(prev=>[...prev,product])
+    }
     const value={
         basket,
-        show,setShow
+        show,setShow,
+        addBasket
     }
     return <CustomContext.Provider value={value }>
         {props.children}

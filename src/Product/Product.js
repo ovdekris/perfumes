@@ -9,7 +9,7 @@ import {useLocation, useParams} from "react-router-dom";
 import {CustomContext} from "../MainPage/Context/Context";
 function Product({props}){
     const [count,setCount]=useState(0);
-    const {show}=useContext(CustomContext);
+    const {show,addBasket}=useContext(CustomContext);
     //take location
     const location=useLocation();
     const pathName=location.pathname;
@@ -102,7 +102,9 @@ function Product({props}){
                             </div>
                         </div>
                         <div className={style.button__item}>
-                        <div className={style.button__buy}>
+                        <div className={style.button__buy} onClick={()=>{
+                            addBasket(result);
+                        }}>
                             Add to basket
                         </div>
                             <div className={style.button__like}>
