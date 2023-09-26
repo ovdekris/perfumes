@@ -4,10 +4,12 @@ import Footer from "../MainPage/Footer/Footer";
 import {AiOutlineStar,AiFillStar,AiOutlineHeart} from "react-icons/ai";
 import {BiSolidShoppingBags} from "react-icons/bi"
 import style from "./Product.module.css";
-import {useState} from "react";
+import {useContext, useState} from "react";
 import {useLocation, useParams} from "react-router-dom";
+import {CustomContext} from "../MainPage/Context/Context";
 function Product({props}){
     const [count,setCount]=useState(0);
+    const {show}=useContext(CustomContext);
     //take location
     const location=useLocation();
     const pathName=location.pathname;
@@ -57,7 +59,7 @@ function Product({props}){
     }
     result=data[extractedNumber-1];
     return(
-        <div>
+        <div style={{position: show? 'fixed':'relative'}}>
             <Module/>
             <Header/>
             <div className={style.content}>

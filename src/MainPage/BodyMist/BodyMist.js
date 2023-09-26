@@ -3,10 +3,13 @@ import Module from "../Module/Module";
 import Footer from "../Footer/Footer";
 import style from "../ForWoman/ForWoman.module.css";
 import CardProduct from "../CardProduct/CardProduct";
+import {useContext} from "react";
+import {CustomContext} from "../Context/Context";
 
 function BodyMist({props}){
+    const {show}=useContext(CustomContext);
     return(
-        <div>
+        <div style={{position: show? 'fixed':'relative'}}>
             <Module/>
             <Header/>
             <div className={style.container}>
