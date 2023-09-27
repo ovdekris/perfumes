@@ -22,13 +22,15 @@
     cursor: pointer;
     display: flex;
     padding: 0 100px;
+    justify-content: space-between;
 }
 .content__img{
-    width: 45%;
+    width: 40%;
 }
 .content__img img{
-    height: 65vh;
+    height: 55vh;
     border-radius: 10px;
+    margin-right: 30px;
 }
 .content__title{
     font-size: 24px;
