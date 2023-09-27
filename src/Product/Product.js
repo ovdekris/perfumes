@@ -57,6 +57,8 @@ function Product({props}){
             data = null;
             break;
     }
+    console.log(data[0])
+    console.log(extractedNumber)
     result=data[extractedNumber-1];
     return(
         <div style={{position: show? 'fixed':'relative'}}>
