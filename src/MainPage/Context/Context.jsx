@@ -9,14 +9,32 @@ function Context(props){
         setBasket(prev=>[...prev,
             {...product, count:1}])
     }
-    const plusOneBasket=()=>{
-
+    const plusOneBasket=(id)=>{
+        setBasket(prev=>prev.map(item=>{
+            if (item.id===id){
+                return{
+                    ...item, count: item.count+1
+                }
+                return item;
+            }
+        }))
+    }
+    const minusOneBasket=(id)=>{
+        setBasket(prev=>prev.map(item=>{
+            if (item.id===id){
+                return{
+                    ...item, count: item.count-1
+                }
+                return item;
+            }
+        }))
     }
     const value={
         basket,
         show,setShow,
         addBasket,
-        plusOneBasket
+        plusOneBasket,
+        minusOneBasket
     }
     return <CustomContext.Provider value={value }>
         {props.children}
