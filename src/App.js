@@ -47,7 +47,7 @@ function App() {
               <Route path="homefragrances" element={<HomeFragrances props={dataFragrances}/>}/>
               <Route path="signature" element={<Signature props={dataSignature}/>}/>
               <Route path="likes" element={<Likes/>}/>
-              <Route path="backets" element={<Backets/>}/>
+              <Route path="baskets" element={<Backets/>}/>
               <Route path="profile" element={<Profile props={data}/>}/>
               <Route path="/forwoman/:id" element={<Product props={records}/>}/>
               <Route path="/forman/:id" element={<Product props={records}/>}/>

@@ -34,9 +34,8 @@ function Header(){
                     <BiHeart className={style.content__client__part__icon}/>
                     </Link>
                     <div className={`${style.link} ${style.link__basket__container}`} onClick={()=>{
-
                         if (basket.length){
-                            navigate('/basket')
+                            navigate('/baskets')
                         }else {
                             setShow(true)
                         }

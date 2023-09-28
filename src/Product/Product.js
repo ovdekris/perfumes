@@ -58,6 +58,11 @@ function Product({props}){
             break;
     }
     result=data[extractedNumber-1];
+    if (basket.length > 0) {
+        console.log(basket[0].count)
+        console.log(basket)
+
+    }
     return(
         <div style={{position: show? 'fixed':'relative'}}>
             <Module/>
@@ -88,19 +93,19 @@ function Product({props}){
                            <div className={style.content__count__title}> Quantity</div>
                             <div className={style.content__counter}>
                                 <div className={style.content__counter__item} onClick={()=>{
-                                    minusOneBasket(result.id)
+                                   setCount(count-1)
                                 }}>-</div>
                                 <div className={style.content__counter__number}>{
-                                    if
-                                    basket.find(product=>product.id===result.id).count}</div>
+                                    count
+                                }</div>
                                 <div className={style.content__counter__item} onClick={()=>{
-                                   plusOneBasket(result.id)
+                                   setCount(count+1)
                                 }}>+</div>
                             </div>
                         </div>
                         <div className={style.button__item}>
                         <div className={style.button__buy} onClick={()=>{
-                            addBasket(result);
+                            addBasket(result)
                         }}>
                             Add to basket
                         </div>
