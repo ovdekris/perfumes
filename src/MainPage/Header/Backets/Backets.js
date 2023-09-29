@@ -36,13 +36,12 @@ function Backets(){
                 <div className={style.content__item}>
                     <div className={style.content__icon}><HiArrowPath/></div>
                     <div className={style.content__description}>
-                        <div className={style.content__description__title}>Secure Shopping</div>
-                        <div className={style.content__description__describe}>We use latest SSl security technology to encypt all personal information</div>
+                        <div className={style.content__description__title}>365 Day Returns</div>
+                        <div className={style.content__description__describe}>You can Return in House purchase within 365 Days fot an Exchange</div>
                     </div>
                 </div>
             </div>
             <div className={style.product__card}>
-                Product
                 {basket.map(record => (
                     <BasketsProduct key={record.id} props={record} className={style.content__item}/>
                 ))}
