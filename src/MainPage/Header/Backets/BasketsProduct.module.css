@@ -7,10 +7,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .title__div{
     width: 8vw;
     height: 2px;
     background-color: #FC46AA;
     margin:0 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+.product__card{
+
+}
+.content__item{
+    display: flex;
+    width: 30%;
+}
+.content__icon{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.content__description__title{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.content__description__describe{
+    font-size: 14px;
+    color: dimgray;
 }
