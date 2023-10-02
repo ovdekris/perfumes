@@ -50,12 +50,28 @@
 }
 /*content product*/
 .content__product{
-    justify-content: space-between;
     height: 150px;
     display: flex;
     align-items: center;
 }
 .content__image img{
+    margin-right: 30px;
     height: 130px;
     max-width: 150px;
+}
+.content__product__description{
+    max-width: 200px;
+    margin-right: 80px;
+}
+.content__product__description__price{
+    margin-right: 80px;
+}
+.content__product__description__count{
+    margin-right: 150px;
+}
+.content__product__description__price__count{
+    margin-right: 100px;
+}
+.content__product__description__delete{
+
 }
