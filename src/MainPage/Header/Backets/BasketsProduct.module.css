@@ -48,3 +48,14 @@
     padding: 20px;
     height: 100%;
 }
+/*content product*/
+.content__product{
+    justify-content: space-between;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.content__image img{
+    height: 130px;
+    max-width: 150px;
+}
