@@ -43,7 +43,7 @@ function Backets(){
             </div>
             <div className={style.product__card}>
                 {basket.map(record => (
-                    <BasketsProduct key={record.id} props={record} className={style.content__item}/>
+                    <BasketsProduct  props={record} className={style.content__item}/>
                 ))}
             </div>
             </div>

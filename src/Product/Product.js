@@ -9,7 +9,7 @@ import {useLocation, useParams} from "react-router-dom";
 import {CustomContext} from "../MainPage/Context/Context";
 function Product({props}){
     const [count,setCount]=useState(0);
-    const {show,addBasket,plusOneBasket,minusOneBasket,basket}=useContext(CustomContext);
+    const {show,addBasket,addToCart,minusOneBasket,basket}=useContext(CustomContext);
     //take location
     const location=useLocation();
     const pathName=location.pathname;
@@ -58,11 +58,7 @@ function Product({props}){
             break;
     }
     result=data[extractedNumber-1];
-    if (basket.length > 0) {
-        console.log(basket[0].count)
-        console.log(basket)
-
-    }
+    console.log(basket)
     return(
         <div style={{position: show? 'fixed':'relative'}}>
             <Module/>
@@ -93,13 +89,12 @@ function Product({props}){
                            <div className={style.content__count__title}> Quantity</div>
                             <div className={style.content__counter}>
                                 <div className={style.content__counter__item} onClick={()=>{
-                                   setCount(count-1)
                                 }}>-</div>
                                 <div className={style.content__counter__number}>{
                                     count
                                 }</div>
                                 <div className={style.content__counter__item} onClick={()=>{
-                                   setCount(count+1)
+                                    addToCart(result)
                                 }}>+</div>
                             </div>
                         </div>

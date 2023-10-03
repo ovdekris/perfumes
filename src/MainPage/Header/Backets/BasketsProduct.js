@@ -1,7 +1,10 @@
 import style from "./BasketsProduct.module.css";
 import {MdDelete} from "react-icons/md"
+import {useContext} from "react";
+import {CustomContext} from "../../Context/Context";
 function BasketsProduct({props}){
     console.log(props)
+    const {plusOneBasket,minusOneBasket,delBasket}=useContext(CustomContext);
     return(
         <div className={style.content__product}>
             <div className={style.content__image}>
@@ -16,9 +19,9 @@ function BasketsProduct({props}){
                 ${props.price}
             </div>
             <div className={style.content__product__description__count}>
-                <div className={style.content__product__description__count__plus}>+</div>
-                <div className={style.content__product__description__count__number}>{props.count}</div>
                 <div className={style.content__product__description__count__minus}></div>
+                <div className={style.content__product__description__count__number}>{props.count}</div>
+                <div className={style.content__product__description__count__plus} >+</div>
             </div>
             <div className={style.content__product__description__price__count}>
                 ${props.count*props.price}
