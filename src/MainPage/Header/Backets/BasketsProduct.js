@@ -7,16 +7,23 @@ function BasketsProduct({props}){
                 <img src={props.image} alt="Image"/>
             </div>
             <div className={style.content__product__description}>
-                {props.title}, {props.scents} ,
+                <div className={style.content__product__description__item__title}>{props.title}</div>
+                <div className={style.content__product__description__item}>{props.scents[0]}</div>
+                <div className={style.content__product__description__item}>{props.scents[1]}</div>
+                <div className={style.content__product__description__item}>{props.scents}</div>
+                <div className={style.content__product__description__item}>{props.scents}</div>
+                <div className={style.content__product__description__item}>{props.scents}</div>
             </div>
             <div className={style.content__product__description__price}>
-                {props.price}
+                ${props.price}
             </div>
             <div className={style.content__product__description__count}>
-                {props.count}
+                <div className={style.content__product__description__count__plus}>+</div>
+                <div className={style.content__product__description__count__number}>{props.count}</div>
+                <div className={style.content__product__description__count__minus}></div>
             </div>
             <div className={style.content__product__description__price__count}>
-                {props.count*props.price}
+                ${props.count*props.price}
             </div>
             <div className={style.content__product__description__delete}>
                 delete
