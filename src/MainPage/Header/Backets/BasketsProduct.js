@@ -1,4 +1,5 @@
-import style from "./BasketsProduct.module.css"
+import style from "./BasketsProduct.module.css";
+import {MdDelete} from "react-icons/md"
 function BasketsProduct({props}){
     console.log(props)
     return(
@@ -10,9 +11,6 @@ function BasketsProduct({props}){
                 <div className={style.content__product__description__item__title}>{props.title}</div>
                 <div className={style.content__product__description__item}>{props.scents[0]}</div>
                 <div className={style.content__product__description__item}>{props.scents[1]}</div>
-                <div className={style.content__product__description__item}>{props.scents}</div>
-                <div className={style.content__product__description__item}>{props.scents}</div>
-                <div className={style.content__product__description__item}>{props.scents}</div>
             </div>
             <div className={style.content__product__description__price}>
                 ${props.price}
@@ -26,7 +24,7 @@ function BasketsProduct({props}){
                 ${props.count*props.price}
             </div>
             <div className={style.content__product__description__delete}>
-                delete
+                <MdDelete/>
             </div>
             </div>
     )

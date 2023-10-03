@@ -53,22 +53,31 @@
     height: 150px;
     display: flex;
     align-items: center;
+    padding-left: 50px;
+    border-bottom: 2px dashed lightgray;
+}
+.content__product:last-child{
+    border-bottom: none;
+}
+.content__image{
+    margin-right: 60px;
+    height: 130px;
+    width: 110px;
 }
 .content__image img{
-    margin-right: 80px;
-    height: 130px;
-    max-width: 150px;
+ height: 100%;
 }
 .content__product__description{
-    max-width: 200px;
+    width: 220px;
     margin-right: 80px;
 }
 .content__product__description__price,.content__product__description__price__count{
+    width: 80px;
     cursor: pointer;
      font-size: 20px;
      font-weight: bolder;
      font-family: 'Libre Franklin', sans-serif;
-     margin-right: 80px;
+    margin-right: 60px;
 }
 .content__product__description__count{
     cursor: pointer;
@@ -85,9 +94,6 @@
     padding: 0 20px;
     border-radius: 30px;
 }
-.content__product__description__price__count{
-    margin-right: 100px;
-}
 .content__product__description__delete{
 
 }
@@ -95,4 +101,18 @@
     width: 12px;
     height: 3px;
     background-color: white;
+}
+.content__product__description__delete{
+    color: black;
+    font-size: 30px;
+}
+.content__product__description__item__title{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.content__product__description__item{
+    font-weight: bolder;
+    font-size: 14px;
+    color: dimgrey;
 }
