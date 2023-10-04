@@ -83,13 +83,28 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    color: black;
+    font-size: 20px;
+    font-weight: bolder;
     margin-right: 100px;
     justify-content: space-between;
+    color: white;
+}
+.content__product__description__count__item{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    background-color: #FC46AA;
 }
 .content__product__description__count__minus{
-
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.content__product__description__count__plus{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .content__product__description__delete{
     color: black;

@@ -88,12 +88,14 @@ function Product({props}){
                            <div className={style.content__count__title}> Quantity</div>
                             <div className={style.content__counter}>
                                 <div className={style.content__counter__item} onClick={()=>{
+                                    setCount(count-1)
                                     minusToCart(result)
                                 }}>-</div>
                                 <div className={style.content__counter__number}>{
-                                    0
+                                    count
                                 }</div>
                                 <div className={style.content__counter__item} onClick={()=>{
+                                    setCount(count+1)
                                     addToCart(result)
                                 }}>+</div>
                             </div>

@@ -19,11 +19,11 @@ function BasketsProduct({props}){
                 ${props.price}
             </div>
             <div className={style.content__product__description__count}>
-                <div className={style.content__product__description__count__minus} onClick={()=>{
+                <div className={`${style.content__product__description__count__minus} ${style.content__product__description__count__item}`} onClick={()=>{
                     minusToCart(props)
                 }}>-</div>
-                <div className={style.content__product__description__count__number}>{props.count}</div>
-                <div className={style.content__product__description__count__plus} onClick={()=>{
+                <div className={style.content__product__description__count__item}>{props.count}</div>
+                <div className={`${style.content__product__description__count__plus} ${style.content__product__description__count__item}`} onClick={()=>{
                     addToCart(props)
                 }}>+</div>
             </div>
