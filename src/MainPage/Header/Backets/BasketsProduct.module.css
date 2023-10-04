@@ -83,24 +83,13 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: #FC46AA;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
-    height: 45px;
-    width: 125px;
+    border: 1px solid black;
+    color: black;
     margin-right: 100px;
     justify-content: space-between;
-    padding: 0 20px;
-    border-radius: 30px;
-}
-.content__product__description__delete{
-
 }
 .content__product__description__count__minus{
-    width: 12px;
-    height: 3px;
-    background-color: white;
+
 }
 .content__product__description__delete{
     color: black;
