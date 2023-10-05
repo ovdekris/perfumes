@@ -12,9 +12,9 @@ function Context(props){
         ])
         localStorage.setItem('basket', JSON.stringify(basket));
     }
-    const delBasket=async (id)=>{
-        await setBasket(prev=>prev.filter(item=>item.id!==id))
-        localStorage.setItem('basket', JSON.stringify(basket));
+    const delBasket=(itemId)=>{
+        const updatedCart = basket.filter((item) => item.id !== itemId);
+        setBasket(updatedCart);
     }
     const addToCart = (product) => {
         const existingProduct = basket.find((item) => item.idList === product.idList);
@@ -30,18 +30,20 @@ function Context(props){
         }
     }
     const minusToCart = (product) => {
-        const existingProductCount=basket.find((item) => item.idList === product.idList).count;
-        const existingProduct = basket.find((item) => item.idList === product.idList);
-        if (existingProduct) {
-            const updatedCart = basket.map((item) =>
-                item.idList === product.idList
-                    ? { ...item, count: item.count - 1 }
-                    : item
-            );
-            setBasket(updatedCart);
-        } else {
-            setBasket([...basket, { ...product, count: 1 }]);
-        }
+            const updatedCart = basket.map((item) => {
+                if (item.idList === product.idList) {
+                    if (item.quantity === 1) {
+                        return null;
+                    } else {
+                        return { ...item, quantity: item.quantity - 1 };
+                    }
+                }
+                return item;
+            });
+
+            const filteredCart = updatedCart.filter((item) => item !== null);
+
+            setBasket(filteredCart);
     }
     const value={
         basket,

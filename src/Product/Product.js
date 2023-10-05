@@ -92,7 +92,7 @@ function Product({props}){
                                     minusToCart(result)
                                 }}>-</div>
                                 <div className={style.content__counter__number}>{
-                                    count
+                                    count>0?count: 0
                                 }</div>
                                 <div className={style.content__counter__item} onClick={()=>{
                                     setCount(count+1)
