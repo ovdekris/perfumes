@@ -12,8 +12,8 @@ function Context(props){
         ])
         localStorage.setItem('basket', JSON.stringify(basket));
     }
-    const delBasket=(itemId)=>{
-        const updatedCart = basket.filter((item) => item.id !== itemId);
+    const delBasket=(product)=>{
+        const updatedCart = basket.filter((item) => item.idList !== product.idList);
         setBasket(updatedCart);
     }
     const addToCart = (product) => {
@@ -30,20 +30,20 @@ function Context(props){
         }
     }
     const minusToCart = (product) => {
-            const updatedCart = basket.map((item) => {
-                if (item.idList === product.idList) {
-                    if (item.quantity === 1) {
-                        return null;
-                    } else {
-                        return { ...item, quantity: item.quantity - 1 };
-                    }
-                }
-                return item;
-            });
-
-            const filteredCart = updatedCart.filter((item) => item !== null);
-
-            setBasket(filteredCart);
+         const updatedCart = basket.filter((item) => item.idList !== product.idList);
+          let count=basket.find(item=>item.idList===product.idList).count;
+          if (count===1){
+            setBasket(updatedCart)
+          }
+          else
+          {
+              setBasket(prev=>prev.map(item=>{
+                  if (item.idList===product.idList){
+                      return {...item, count:item.count-1}
+                  }
+                  return item
+              }))
+          }
     }
     const value={
         basket,

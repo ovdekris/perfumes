@@ -4,6 +4,7 @@ import {useContext} from "react";
 import {CustomContext} from "../../Context/Context";
 function BasketsProduct({props}){
     const {basket,addToCart,minusToCart,delBasket}=useContext(CustomContext);
+    console.log(basket)
     return(
         <div className={style.content__product}>
             <div className={style.content__image}>
@@ -30,8 +31,7 @@ function BasketsProduct({props}){
                 ${props.count*props.price}
             </div>
             <div className={style.content__product__description__delete} onClick={()=>{
-                delBasket(props.idList)
-                console.log(basket)
+                delBasket(props)
             }}>
                 <MdDelete />
             </div>
