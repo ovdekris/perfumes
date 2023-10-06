@@ -5,8 +5,8 @@ export const CustomContext=createContext();
 function Context(props){
     const [basket,setBasket]=useState([]);
     const[show,setShow]=useState(false);
-    const addBasket=async (product)=>{
-        await setBasket(prev=>[...prev,
+    const addBasket=(product)=>{
+        setBasket(prev=>[...prev,
             {...product,
                 count:1}
         ])
