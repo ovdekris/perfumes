@@ -1,6 +1,8 @@
 import style from "./CardProduct.module.css";
 import {AiOutlineHeart} from "react-icons/ai";
 import {Link, useLocation} from "react-router-dom";
+import {useContext} from "react";
+import {CustomContext} from "../Context/Context";
 function CardProduct({props}){
     const location=useLocation();
     return(

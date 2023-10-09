@@ -9,6 +9,7 @@ import {useLocation, useParams} from "react-router-dom";
 import {CustomContext} from "../MainPage/Context/Context";
 function Product({props}){
     const [count,setCount]=useState(0);
+    const{addLikes,likes}=useContext(CustomContext);
     const {show,addBasket,addToCart,minusToCart,basket}=useContext(CustomContext);
     //take location
     const location=useLocation();
@@ -58,6 +59,7 @@ function Product({props}){
             break;
     }
     result=data[extractedNumber-1];
+    console.log(likes);
     return(
         <div style={{position: show? 'fixed':'relative'}}>
             <Module/>
@@ -106,7 +108,9 @@ function Product({props}){
                         }}>
                             Add to basket
                         </div>
-                            <div className={style.button__like}>
+                            <div className={style.button__like} onClick={()=>{
+                                addLikes(props)
+                            }}>
                                 <AiOutlineHeart className={style.button__like__heart}/>
                             </div>
                         </div>

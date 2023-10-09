@@ -4,13 +4,54 @@ export const CustomContext=createContext();
 
 function Context(props){
     const [basket,setBasket]=useState([]);
+    const [likes,setLikes]=useState([]);
     const[show,setShow]=useState(false);
+    //Logic for likes
+    const addLikes=(product)=>{
+        setLikes(prev=>[...prev,
+            {...product,
+                count:1}
+        ])
+    }
+    const delLikes=(product)=>{
+        const updatedCart = likes.filter((item) => item.idList !== product.idList);
+        setLikes(updatedCart);
+    }
+    const addToLikes = (product) => {
+        const existingProduct = likes.find((item) => item.idList === product.idList);
+        if (existingProduct) {
+            const updatedCart = likes.map((item) =>
+                item.idList === product.idList
+                    ? { ...item, count: item.count + 1 }
+                    : item
+            );
+            setBasket(updatedCart);
+        } else {
+            setBasket([...basket, { ...product, count: 1 }]);
+        }
+    }
+    const minusToLikes = (product) => {
+        const updatedCart = likes.filter((item) => item.idList !== product.idList);
+        let count=likes.find(item=>item.idList===product.idList).count;
+        if (count===1){
+            setLikes(updatedCart)
+        }
+        else
+        {
+            setLikes(prev=>prev.map(item=>{
+                if (item.idList===product.idList){
+                    return {...item, count:item.count-1}
+                }
+                return item
+            }))
+        }
+    }
+    //Logic for basket
     const addBasket=(product)=>{
         setBasket(prev=>[...prev,
             {...product,
                 count:1}
         ])
-        localStorage.setItem('basket', JSON.stringify(basket));
     }
     const delBasket=(product)=>{
         const updatedCart = basket.filter((item) => item.idList !== product.idList);
@@ -51,7 +92,11 @@ function Context(props){
         addBasket,
         minusToCart,
         delBasket,
-        addToCart
+        addToCart,
+        addLikes,
+        delLikes,
+        addToLikes,
+        minusToLikes, likes
     }
     return <CustomContext.Provider value={value }>
         {props.children}
