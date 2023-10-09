@@ -7,6 +7,7 @@ import BurgerMenu from "./BurgerMenu/BurgerMenu";
 import {Link, useNavigate} from "react-router-dom";
 import {CustomContext} from "../Context/Context";
 import BasketsZero from "./Backets/BasketsZero";
+import Search from "./Search/Search";
 function Header(){
     const[menuActive, setMenuActive]=useState(false);
     const {basket,show,setShow}=useContext(CustomContext);
@@ -20,9 +21,7 @@ function Header(){
                 </div>
                     <BurgerMenu active={menuActive} setActive={setMenuActive}/>
                 </div>
-                <div className={style.content__search} >
-                    <input type="text" placeholder="What are you search?"/>
-                </div>
+                <Search/>
                 <Link to="/" className={style.content__logo}>
                     <img src={logo} alt="logo" className={style.image__logo}/>
                 </Link>
