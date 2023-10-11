@@ -26,14 +26,11 @@ function Main({props}) {
     if (isLoading) {
         return <p>Loading...</p>; // Показать индикатор загрузки
     }
-    if (setShow){
-        console.log("Do it")
-    }
     const data=records.favorites;
     return (
         <div className={style.container} style={{position: show? 'fixed':'relative'}}>
                             {openModule && <Module  setOpenModule={setOpenModule} />}
-                            <Header props={data} />
+                            <Header props={records} />
                             <Slider />
                             <Category props={data} />}
                             <Bestseller props={data}/>

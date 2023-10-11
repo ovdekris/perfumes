@@ -8,7 +8,7 @@ import {Link, useNavigate} from "react-router-dom";
 import {CustomContext} from "../Context/Context";
 import BasketsZero from "./Backets/BasketsZero";
 import Search from "./Search/Search";
-function Header(){
+function Header({props}){
     const[menuActive, setMenuActive]=useState(false);
     const {basket,show,setShow}=useContext(CustomContext);
     const navigate=useNavigate();
@@ -21,7 +21,7 @@ function Header(){
                 </div>
                     <BurgerMenu active={menuActive} setActive={setMenuActive}/>
                 </div>
-                <Search/>
+                <Search props={props}/>
                 <Link to="/" className={style.content__logo}>
                     <img src={logo} alt="logo" className={style.image__logo}/>
                 </Link>
