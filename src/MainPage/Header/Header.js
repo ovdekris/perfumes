@@ -21,7 +21,7 @@ function Header({props}){
                 </div>
                     <BurgerMenu active={menuActive} setActive={setMenuActive}/>
                 </div>
-                <Search props={props}/>
+                <Search/>
                 <Link to="/" className={style.content__logo}>
                     <img src={logo} alt="logo" className={style.image__logo}/>
                 </Link>

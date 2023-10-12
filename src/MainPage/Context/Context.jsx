@@ -6,6 +6,7 @@ function Context(props){
     const [basket,setBasket]=useState([]);
     const [likes,setLikes]=useState([]);
     const[show,setShow]=useState(false);
+    const [searchResults,setSearchResults]=useState([]);
     //Logic for likes
     const addLikes=(product)=>{
         setLikes(prev=>[...prev,
@@ -96,7 +97,10 @@ function Context(props){
         addLikes,
         delLikes,
         addToLikes,
-        minusToLikes, likes
+        minusToLikes,
+        likes,
+        searchResults,
+        setSearchResults
     }
     return <CustomContext.Provider value={value }>
         {props.children}
