@@ -13,6 +13,8 @@ import Likes from "./MainPage/Header/Likes/Likes";
 import Product from "./Product/Product"
 import {useEffect, useState} from "react";
 import NotFound from "./MainPage/NotFound/NotFound";
+import Search from "./MainPage/Header/Search/Search";
+import SearchResult from "./MainPage/SearchResults/SearchResult";
 function App() {
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
@@ -56,6 +58,7 @@ function App() {
               <Route path="/bodymist/:id" element={<Product props={records}/>}/>
               <Route path="/signature/:id" element={<Product props={records}/>}/>
               <Route path="/sale/:id" element={<Product props={records}/>}/>
+              <Route path="search" element={<SearchResult/>}/>
       </Routes>
       </BrowserRouter>
   );

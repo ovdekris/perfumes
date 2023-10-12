@@ -14,15 +14,28 @@
 }
 /*Search*/
 .content__search input{
+    outline: none;
+    width: 80%;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+}
+.content__search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 250px;
     height: 5vh;
     outline: none;
+    padding: 0 10px;
     border: 1px solid rgb(169, 169, 169,0.8);
     border-radius: 10px;
-    padding: 10px;
-    font-size: 14px;
 }
-.content__search input:focus{
+.content__search__item{
+    font-size: 16px;
+    cursor: pointer;
+}
+.content__search:focus{
     border: 1px solid #FC46AA;
     opacity: 0.8;
 }
