@@ -1,8 +1,6 @@
 import style from "./CardProduct.module.css";
 import {AiOutlineHeart} from "react-icons/ai";
 import {Link, useLocation} from "react-router-dom";
-import {useContext} from "react";
-import {CustomContext} from "../Context/Context";
 function CardProduct({props}){
     const location=useLocation();
     return(
@@ -21,8 +19,8 @@ function CardProduct({props}){
                     {props.description}
                 </div>
                 <div className={style.scents}>
-                    <div className={style.scents__item}>{props.scents[0]}</div>
-                    <div className={style.scents__item}>{props.scents[1]}</div>
+                    {/*<div className={style.scents__item}>{props.scents[0]}</div>*/}
+                    {/*<div className={style.scents__item}>{props.scents[1]}</div>*/}
                 </div>
             </div>
             <div className={style.price}>{props.price}$</div>

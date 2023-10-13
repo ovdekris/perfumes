@@ -7,6 +7,7 @@ function Context(props){
     const [likes,setLikes]=useState([]);
     const[show,setShow]=useState(false);
     const [searchResults,setSearchResults]=useState([]);
+    const [inputValue, setInputValue]=useState();
     //Logic for likes
     const addLikes=(product)=>{
         setLikes(prev=>[...prev,
@@ -100,7 +101,9 @@ function Context(props){
         minusToLikes,
         likes,
         searchResults,
-        setSearchResults
+        setSearchResults,
+        inputValue,
+        setInputValue
     }
     return <CustomContext.Provider value={value }>
         {props.children}

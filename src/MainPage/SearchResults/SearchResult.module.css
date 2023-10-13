@@ -1,0 +1,9 @@
+.content{
+    width: 1280px;
+    margin: 50px auto 0 auto;
+}
+.content__title{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #36454F;
+}

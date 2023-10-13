@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 import {CustomContext} from "../../Context/Context";
 function Search(){
     const navigate=useNavigate();
-    const {setSearchResults}=useContext(CustomContext);
+    const {setSearchResults,setInputValue}=useContext(CustomContext);
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
     const url='http://localhost:5000/data';
@@ -28,6 +28,12 @@ function Search(){
            return  it.title.toLowerCase().indexOf(inputValue.toLowerCase()) !==-1
         })
         setSearchResults(results);
+        setInputValue(inputValue);
+    }
+    const navigateSearch=(e)=>{
+        if (e.key==='Enter'){
+            navigate("/search");
+        }
     }
     return(
         <div className={style.content__search} >
