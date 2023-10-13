@@ -109,7 +109,7 @@ function Product({props}){
                             Add to basket
                         </div>
                             <div className={style.button__like} onClick={()=>{
-                                addLikes(props)
+                                addLikes(result)
                             }}>
                                 <AiOutlineHeart className={style.button__like__heart}/>
                             </div>

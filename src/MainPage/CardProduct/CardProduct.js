@@ -19,8 +19,8 @@ function CardProduct({props}){
                     {props.description}
                 </div>
                 <div className={style.scents}>
-                    {/*<div className={style.scents__item}>{props.scents[0]}</div>*/}
-                    {/*<div className={style.scents__item}>{props.scents[1]}</div>*/}
+                    <div className={style.scents__item}>{props.scents[0]}</div>
+                    <div className={style.scents__item}>{props.scents[1]}</div>
                 </div>
             </div>
             <div className={style.price}>{props.price}$</div>
