@@ -1,7 +1,7 @@
 import Header from "../MainPage/Header/Header";
 import Module from "../MainPage/Module/Module"
 import Footer from "../MainPage/Footer/Footer";
-import {AiOutlineStar,AiFillStar,AiOutlineHeart} from "react-icons/ai";
+import {AiOutlineStar,AiFillStar,AiOutlineHeart,AiFillHeart} from "react-icons/ai";
 import {BiSolidShoppingBags} from "react-icons/bi"
 import style from "./Product.module.css";
 import {useContext, useState} from "react";
@@ -9,6 +9,7 @@ import {useLocation, useParams} from "react-router-dom";
 import {CustomContext} from "../MainPage/Context/Context";
 function Product({props}){
     const [count,setCount]=useState(0);
+    const [icon, setIcon]=useState(false);
     const{addLikes,likes}=useContext(CustomContext);
     const {show,addBasket,addToCart,minusToCart,basket}=useContext(CustomContext);
     //take location
@@ -59,7 +60,6 @@ function Product({props}){
             break;
     }
     result=data[extractedNumber-1];
-    console.log(likes);
     return(
         <div style={{position: show? 'fixed':'relative'}}>
             <Module/>
@@ -109,9 +109,13 @@ function Product({props}){
                             Add to basket
                         </div>
                             <div className={style.button__like} onClick={()=>{
-                                addLikes(result)
+                                addLikes(result);
+                                setIcon(true)
                             }}>
-                                <AiOutlineHeart className={style.button__like__heart}/>
+                                {icon?
+                                    <AiFillHeart className={style.button__like__heart}/>:
+                                    <AiOutlineHeart className={style.button__like__heart}/>
+                                }
                             </div>
                         </div>
                         <div className={style.bought__item}>

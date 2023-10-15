@@ -32,22 +32,7 @@ function Context(props){
             setBasket([...basket, { ...product, count: 1 }]);
         }
     }
-    const minusToLikes = (product) => {
-        const updatedCart = likes.filter((item) => item.idList !== product.idList);
-        let count=likes.find(item=>item.idList===product.idList).count;
-        if (count===1){
-            setLikes(updatedCart)
-        }
-        else
-        {
-            setLikes(prev=>prev.map(item=>{
-                if (item.idList===product.idList){
-                    return {...item, count:item.count-1}
-                }
-                return item
-            }))
-        }
-    }
+
     //Logic for basket
     const addBasket=(product)=>{
         setBasket(prev=>[...prev,
@@ -97,8 +82,6 @@ function Context(props){
         addToCart,
         addLikes,
         delLikes,
-        addToLikes,
-        minusToLikes,
         likes,
         searchResults,
         setSearchResults,

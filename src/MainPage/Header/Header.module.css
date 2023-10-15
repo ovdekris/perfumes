@@ -106,6 +106,20 @@
     margin-left: 15px;
     margin-top: -4px;
 }
+.link__heart{
+    z-index: 10;
+    position: absolute;
+    background-color: #FC46AA;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .link__basket__container{
     display: flex;
 }

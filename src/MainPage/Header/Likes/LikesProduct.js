@@ -1,9 +1,9 @@
-import style from "./BasketsProduct.module.css";
+import style from "../Backets/BasketsProduct.module.css";
 import {MdDelete} from "react-icons/md"
 import {useContext} from "react";
 import {CustomContext} from "../../Context/Context";
-function BasketsProduct({props}){
-    const {basket,addToCart,minusToCart,delBasket}=useContext(CustomContext);
+function LikesProduct({props}){
+    const {delLikes,addBasket}=useContext(CustomContext);
     return(
         <div className={style.content__product}>
             <div className={style.content__image}>
@@ -17,20 +17,13 @@ function BasketsProduct({props}){
             <div className={style.content__product__description__price}>
                 ${props.price}
             </div>
-            <div className={style.content__product__description__count}>
-                <div className={`${style.content__product__description__count__minus} ${style.content__product__description__count__item}`} onClick={()=>{
-                    minusToCart(props)
-                }}>-</div>
-                <div className={style.content__product__description__count__item}>{props.count}</div>
-                <div className={`${style.content__product__description__count__plus} ${style.content__product__description__count__item}`} onClick={()=>{
-                    addToCart(props)
-                }}>+</div>
-            </div>
-            <div className={style.content__product__description__price__count}>
-                ${props.count*props.price}
+            <div className={`${style.content__product__description__count} ${style.content__product__likes}`} onClick={()=>{
+                addBasket(props)
+            }}>
+               Add to basket
             </div>
             <div className={style.content__product__description__delete} onClick={()=>{
-                delBasket(props)
+                delLikes(props)
             }}>
                 <MdDelete />
             </div>
@@ -38,4 +31,4 @@ function BasketsProduct({props}){
     )
 }
 
-export default BasketsProduct;
+export default LikesProduct;

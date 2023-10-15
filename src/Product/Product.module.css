@@ -116,6 +116,7 @@
     margin-left: 10px;
 }
 .button__like__heart{
+    color: #FC46AA;
     font-size: 23px;
 }
 .button__like__heart:hover{

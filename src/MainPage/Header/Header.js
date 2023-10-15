@@ -10,7 +10,7 @@ import BasketsZero from "./Backets/BasketsZero";
 import Search from "./Search/Search";
 function Header({props}){
     const[menuActive, setMenuActive]=useState(false);
-    const {basket,show,setShow}=useContext(CustomContext);
+    const {basket,show,setShow,likes}=useContext(CustomContext);
     const navigate=useNavigate();
     return (<>
         <div className={style.container} >
@@ -29,8 +29,9 @@ function Header({props}){
                     <Link to="/profile" className={style.link}>
                     <BiUser className={style.content__client__part__icon}/>
                     </Link>
-                    <Link to="/likes" className={style.link}>
+                    <Link to="/likes" className={`${style.link} ${style.link__basket__container}`}>
                     <BiHeart className={style.content__client__part__icon}/>
+                        <div className={style.link__basket}>{likes.length}</div>
                     </Link>
                     <div className={`${style.link} ${style.link__basket__container}`} onClick={()=>{
                         if (basket.length){
