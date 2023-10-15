@@ -29,10 +29,16 @@ function Header({props}){
                     <Link to="/profile" className={style.link}>
                     <BiUser className={style.content__client__part__icon}/>
                     </Link>
-                    <Link to="/likes" className={`${style.link} ${style.link__basket__container}`}>
+                    <div className={`${style.link} ${style.link__basket__container}`} onClick={()=>{
+                        if (likes.length){
+                            navigate('/likes')
+                        }else {
+                            setShow(true)
+                        }
+                    }}>
                     <BiHeart className={style.content__client__part__icon}/>
                         <div className={style.link__basket}>{likes.length}</div>
-                    </Link>
+                    </div>
                     <div className={`${style.link} ${style.link__basket__container}`} onClick={()=>{
                         if (basket.length){
                             navigate('/baskets')

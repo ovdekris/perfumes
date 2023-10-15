@@ -1,8 +1,6 @@
 import style from "./BasketZero.module.css";
 import icon from "./iconBasket.png";
-import {useNavigate} from "react-router-dom";
 function BasketsZero({show,setShow}){
-    const navigate=useNavigate();
     return(
         <div style={{display: show? 'flex':'none'}} className={style.container}>
             <div className={style.content}>

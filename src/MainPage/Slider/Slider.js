@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from './img-1.jpg';
-import img2 from './img-4.jpg';
-import img3 from './img-3.jpg';
+import img2 from './img-2.jpeg';
+import img3 from './img-3.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import style from "./Slider.module.css";
 import 'swiper/css';
@@ -22,9 +22,9 @@ function Slider(){
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 >
-            <SwiperSlide><img src={img1} alt=""/></SwiperSlide>
             <SwiperSlide><img src={img2} alt=""/></SwiperSlide>
             <SwiperSlide><img src={img3} alt=""/></SwiperSlide>
+            <SwiperSlide><img src={img1} alt=""/></SwiperSlide>
         </Swiper>
     )
 }
