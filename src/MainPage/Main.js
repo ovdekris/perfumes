@@ -8,7 +8,7 @@ import Bestseller from "./Bestseller/Bestseller";
 import Footer from "./Footer/Footer";
 import {CustomContext} from "./Context/Context";
 
-function Main({props}) {
+function Main() {
     const [isLoading, setIsLoading] = useState(true);
     const [records, setRecords] = useState([]);
     const [openModule, setOpenModule] = useState(true);
@@ -33,7 +33,7 @@ function Main({props}) {
                             <Header props={records} />
                             <Slider />
                             <Category props={data} />}
-                            <Bestseller props={data}/>
+                            <Bestseller props={records.bestseller}/>
                             <Footer />
         </div>
     );
