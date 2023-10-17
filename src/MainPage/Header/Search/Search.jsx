@@ -30,14 +30,14 @@ function Search(){
         setSearchResults(results);
         setInputValue(inputValue);
     }
-    const navigateSearch=(e)=>{
-        if (e.key==='Enter'){
-            navigate("/search");
+    const onKeyDown=(e)=>{
+        if(e.keyCode===13){
+           navigate("/search")
         }
     }
     return(
         <div className={style.content__search} >
-            <input type="text" placeholder="What are you search?" onChange={handleSearch}/>
+            <input type="text" placeholder="What are you search?" onChange={handleSearch} onKeyDown={onKeyDown}/>
             <BsSearch className={style.content__search__item} onClick={()=>{
                 navigate("/search");
             }}/>

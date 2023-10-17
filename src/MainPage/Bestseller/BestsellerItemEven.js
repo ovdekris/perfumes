@@ -1,7 +1,6 @@
 import style from "./BestsellerItemEven.module.css";
-import {useNavigate, Link} from "react-router-dom";
+import { Link} from "react-router-dom";
 function BestsellerItemEven({props}){
-    console.log(props)
     return(
             <div className={style.container} >
                 <div className={style.content}>

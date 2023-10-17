@@ -1,4 +1,5 @@
 import style from "./BestsellerItem.module.css";
+import {Link} from "react-router-dom";
 function BestsellerItem({props}){
    return(
        <div className={style.container}>
@@ -9,7 +10,7 @@ function BestsellerItem({props}){
            <div className={style.description__container}>
                <div className={style.title}>{props.title}</div>
                <div className={style.description}>{props.description}</div>
-               <div className={style.button}>Discover</div>
+               <Link className={style.button} to={`${props.category}/${props.id}`}>Discover</Link>
            </div>
            </div>
            <div className={style.background}></div>
