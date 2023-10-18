@@ -1,4 +1,4 @@
-import {createContext, useState} from "react";
+import {createContext, useEffect, useState} from "react";
 
 export const CustomContext=createContext();
 
@@ -34,19 +34,17 @@ function Context(props){
     }
 
     //Logic for basket
-    const addBasket=async (product)=>{
-       await setBasket(prev=>[...prev,
+    const addBasket=(product)=>{
+     setBasket(prev=>[...prev,
             {...product,
                 count:1}
         ])
-      await  localStorage.setItem('basket', JSON.stringify(basket));
     }
-    const delBasket=async (product)=>{
+    const delBasket= (product)=>{
       const updatedCart = basket.filter((item) => item.idList !== product.idList);
-        await  setBasket(updatedCart);
-       await localStorage.setItem('basket', JSON.stringify(basket));
+        setBasket(updatedCart);
     }
-    const addToCart = async (product) => {
+    const addToCart =  (product) => {
         const existingProduct = basket.find((item) => item.idList === product.idList);
         if (existingProduct) {
             const updatedCart = basket.map((item) =>
@@ -54,17 +52,17 @@ function Context(props){
                     ? { ...item, count: item.count + 1 }
                     : item
             );
-            await  setBasket(updatedCart);
+              setBasket(updatedCart);
         } else {
             setBasket([...basket, { ...product, count: 1 }]);
         }
-         await localStorage.setItem('basket', JSON.stringify(basket));
+
     }
-    const minusToCart = async (product) => {
+    const minusToCart =  (product) => {
          const updatedCart = basket.filter((item) => item.idList !== product.idList);
           let count=basket.find(item=>item.idList===product.idList).count;
           if (count===1){
-           await setBasket(updatedCart)
+           setBasket(updatedCart)
           }
           else
           {
@@ -75,8 +73,10 @@ function Context(props){
                   return item
               }))
           }
-         await localStorage.setItem('basket', JSON.stringify(basket));
     }
+    useEffect(()=>{
+        localStorage.setItem("basket", JSON.stringify(basket))
+    },[basket])
     const value={
         basket,
         show,setShow,

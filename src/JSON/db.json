@@ -841,5 +841,135 @@
           "image": "https://www.sephora.pl/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwf89bc593/images/hi-res/SKU/SKU_3/283249_swatch.jpg?sw=585&sh=585&sm=fit"
         }
       ]
+    },
+  "product": [
+    {
+      "id": 1,
+      "idList": 5, "title": "Bleu de Chanel" ,
+      "description": " Bleu de Chanel  is a men's fragrance created by Jacques",
+      "scents": ["woody","citrus"],
+      "price": 70,
+      "image": "https://assets.vogue.com/photos/6054ceb33de64a1c8b706d68/3:4/w_640,c_limit/slide_6.jpg"
+    },
+    {
+      "id": 2,
+      "idList": 6, "title": "Dior Sauvage" ,
+      "description": " Inspired by nature and its raw materials, this scent from Dior perfumer François Demachy is earthy and woody.",
+      "scents": ["earthy","citrus"],
+      "price": 90,
+      "image": "https://assets.vogue.com/photos/6054ce48ba2b50871bd1d368/3:4/w_640,c_limit/slide_8.jpg"
+    },
+    {
+      "id": 3,
+      "idList": 7, "title": "Ralph Lauren Polo Black" ,
+      "description": "A bold fusion of iced mango, lemon, and tangerine is combined with sandalwood, sage, and patchouli",
+      "scents": ["sage","sandal"],
+      "price": 80,
+      "image": "https://assets.vogue.com/photos/6054ce7c3d9f1094613214fa/3:4/w_640,c_limit/slide_15.jpg"
+    },
+    {
+      "id": 4,
+      "idList": 8, "title": "Gucci the Alchemist’s Garden" ,
+      "description": " It’s a warming, cozy scent made up of cedarwoods, cypress, and nutmeg, with woody ",
+      "scents": ["nutmeg","woody"],
+      "price": 60,
+      "image": "https://assets.vogue.com/photos/6054cd303de64a1c8b706d66/3:4/w_640,c_limit/slide_10.jpg"
+    },
+    {
+      "id": 5,
+      "idList": 9, "title": "Maison Margiela Replica Jazz " ,
+      "description": " This scent is the next best thing: Warm and spicy, it has notes of pink pepper, rum",
+      "scents": ["tobacco","rum"],
+      "price": 90,
+      "image": "https://assets.vogue.com/photos/6054ce6c67d465baa48350d5/3:4/w_640,c_limit/slide_14.jpg"
+    },
+    {
+      "id": 6,
+      "idList": 10, "title": "Calvin Klein Eternity" ,
+      "description": "Clearly, the love affair with this scent carries on too",
+      "scents": ["sage","mandarin"],
+      "price": 40,
+      "image": "https://assets.vogue.com/photos/6054ce8fde380439cadee5c2/3:4/w_640,c_limit/slide_7.jpg"
+    },
+    {
+      "id": 7,
+      "idList": 11, "title": "BLe Labo Another 13" ,
+      "description": "A collaboration with Another magazine, the scent is equal parts musky and fresh",
+      "scents": ["woody","ambroxan"],
+      "price": 70,
+      "image": "https://assets.vogue.com/photos/6054cd6451b6a301cf32a966/3:4/w_640,c_limit/slide_12.jpg"
+    },
+    {
+      "id": 8,
+      "idList": 12, "title": "Byredo Bibliothèque" ,
+      "description": "It’s also inspired by one of Byredo’s best-selling candles—so you know it’s good",
+      "scents": ["plum","peach"],
+      "price": 80,
+      "image": "https://assets.vogue.com/photos/6054ce5840c3812adafdb036/3:4/w_640,c_limit/slide_4.jpg"
+    },
+    {
+      "id": 9,
+      "idList": 13, "title": "Yves Saint Laurent L’Homme" ,
+      "description": "YSL’s L’Homme is inspired by the magnetic attraction of a man with style and sensuality",
+      "scents": ["bergamot","citrus"],
+      "price": 50,
+      "image": "https://assets.vogue.com/photos/6436e36bd5134c3c819e901f/3:4/w_640,c_limit/slide_.jpg"
+    },
+    {
+      "id": 10,
+      "idList": 14, "title": "Maison Crivelli Osmanthe" ,
+      "description": "The discovery of the osmanthus flowers on a misty, tropical mountain is the inspiration",
+      "scents": ["fruit","paper"],
+      "price": 60,
+      "image": "https://assets.vogue.com/photos/6373e3a7bef03ca674096195/3:4/w_640,c_limit/slide_%20(71).jpg"
+    },
+    {
+      "id": 11,
+      "idList": 15, "title": "Hugo Boss Boss" ,
+      "description": "Launched in 1998, this enduring cologne is a cult classic thanks to its timeless, masculine scent",
+      "scents": ["sandal","citrus"],
+      "price": 30,
+      "image": "https://assets.vogue.com/photos/6054cf0748ee0886a203daf9/3:4/w_640,c_limit/slide_3.jpg"
+    },
+    {
+      "id": 12,
+      "idList": 16, "title": "Tom Ford Oud Wood" ,
+      "description": "Combined with cardamom, sandalwood, and vetiver—with hints of tonka bean",
+      "scents": ["sandal","amber"],
+      "price": 89,
+      "image": "https://assets.vogue.com/photos/6054cd9e9b02ecbcfba47a3e/3:4/w_640,c_limit/slide_17.jpg"
+    },
+    {
+      "id": 13,
+      "idList": 17, "title": "Hermès H24" ,
+      "description": "It’s perfect for the spring and summer, in particular, though the warming rosewood makes",
+      "scents": ["sage","rosewood"],
+      "price": 65,
+      "image": "https://assets.vogue.com/photos/618d5c30add0a25be01d748b/3:4/w_640,c_limit/slide_2.jpg"
+    },
+    {
+      "id": 14,
+      "idList": 18, "title": "Prada Luna Rossa Ocean" ,
+      "description": "Aromatic, musky, and aquatic in nature, Prada’s Luna Rossa Ocean is a refreshingly earthy blend",
+      "scents": ["woody","saffron"],
+      "price": 54,
+      "image": "https://assets.vogue.com/photos/6436e36a55155b28a64866d7/3:4/w_640,c_limit/slide_2.jpg"
+    },
+    {
+      "id": 15,
+      "idList": 19, "title": "Giorgio Armani Acqua di Gio" ,
+      "description": "Released in 1996, this classic scent, inspired by the ocean, has stood the test of time for a reason",
+      "scents": ["musk","citrus"],
+      "price": 55,
+      "image": "https://assets.vogue.com/photos/6054cee3717fc17495451847/3:4/w_640,c_limit/slide_2.jpg"
+    },
+    {
+      "id": 16,
+      "idList": 20, "title": "Creed Aventus" ,
+      "description": "This best-selling fragrance from Creed was introduced in 2010 and continues to be a fan favorite",
+      "scents": ["musk","citrus"],
+      "price": 250,
+      "image": "https://assets.vogue.com/photos/618d5c4f9746c91405ace34b/3:4/w_640,c_limit/slide_3.jpg"
     }
+  ]
 }
