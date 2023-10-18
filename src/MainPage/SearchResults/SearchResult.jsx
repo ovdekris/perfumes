@@ -5,6 +5,7 @@ import {CustomContext} from "../Context/Context";
 import style from "./SearchResult.module.css";
 import styleCard from "../ForWoman/ForWoman.module.css";
 import CardProduct from "../CardProduct/CardProduct";
+import CardProductSearch from "./CardProductSearch";
 function SearchResult() {
     const {searchResults,inputValue}=useContext(CustomContext);
     return (
@@ -15,7 +16,7 @@ function SearchResult() {
                <div className={style.content__title}>Your search for "{inputValue}" has provided the following results:</div>
                <div className={styleCard.content}>
                    {searchResults.map(record => (
-                       <CardProduct props={record} key={record.id} className={styleCard.content__item}/>
+                       <CardProductSearch props={record} key={record.id} className={styleCard.content__item}/>
                    ))}
                </div>
 

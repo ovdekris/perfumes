@@ -21,7 +21,7 @@ function Search(){
     if (isLoading) {
         return <p>Loading...</p>; // Показать индикатор загрузки
     }
-    const data=records.forman;
+    const data=records.product;
     const handleSearch=(e)=>{
         const inputValue=e.target.value;
         const results=data.filter((it)=>{
