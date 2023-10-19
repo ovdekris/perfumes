@@ -1,6 +1,6 @@
 import  "./BurgerMenu.Module.css";
-import style from "../Header.module.css";
 import React from "react";
+import {Link} from "react-router-dom";
 function BurgerMenu({active, setActive}){
     return(
         <>
@@ -14,27 +14,27 @@ function BurgerMenu({active, setActive}){
                          <div className="content__menu__list">
                              <ul className="content__menu__list__ul">
                                  <li>
-                                     <a href="">Sale</a>
+                                     <Link to="/sale">Sale</Link>
                                  </li>
                                  <hr/>
                                  <li>
-                                     <a href="">For men</a>
+                                     <Link to="/forman">For men</Link>
                                  </li>
                                  <hr/>
                                  <li>
-                                     <a href="">For women</a>
+                                     <Link to="/forwoman">For women</Link>
                                  </li>
                                  <hr/>
                                  <li>
-                                     <a href="">Body mist</a>
+                                     <Link to="bodymist">Body mist</Link>
                                  </li>
                                  <hr/>
                                  <li>
-                                     <a href="">Home fragrances</a>
+                                     <Link to="homefragrances">Home fragrances</Link>
                                  </li>
                                  <hr/>
                                  <li>
-                                     <a href="">Signature</a>
+                                     <Link to="signature">Signature</Link>
                                  </li>
                                  <hr/>
                              </ul>
