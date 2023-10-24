@@ -7,6 +7,10 @@ import BasketsProduct from "./BasketsProduct";
 import BasketIem from "./BasketIem";
 function Backets(){
     const {basket}=useContext(CustomContext)
+    let result=0;
+    basket.map(record=>(
+        result+=record.count*record.price
+    ))
     return(
         <div>
             <Module/>
@@ -22,6 +26,11 @@ function Backets(){
                     <BasketsProduct  key={record.id} props={record} className={style.content__item}/>
                 ))}
             </div>
+                <div className={style.product__price__container}>
+              <div className={style.product__price}>PRICE: {result}$
+              <div className={style.product__price__item}></div>
+              </div>
+                </div>
             </div>
         </div>
     )

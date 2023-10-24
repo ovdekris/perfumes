@@ -162,6 +162,21 @@
        margin-right: 20px;
    }
 }
+.product__price__container{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.product__price{
+    margin: 40px 120px 0 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.product__price__item{
+    width: 120px;
+    height: 3px;
+    background-color: #FC46AA;
+}
 @media (max-width: 764px) {
     .content__product{
         padding:  0 ;
