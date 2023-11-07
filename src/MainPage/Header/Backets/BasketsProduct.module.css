@@ -171,11 +171,14 @@
     margin: 40px 120px 0 0;
     font-weight: bolder;
     font-size: 20px;
+    text-align: center;
+    border-bottom: 3px solid #FC46AA;
 }
-.product__price__item{
-    width: 120px;
-    height: 3px;
-    background-color: #FC46AA;
+
+.product__price__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 @media (max-width: 764px) {
     .content__product{

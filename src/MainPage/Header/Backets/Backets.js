@@ -27,9 +27,9 @@ function Backets(){
                 ))}
             </div>
                 <div className={style.product__price__container}>
-              <div className={style.product__price}>PRICE: {result}$
-              <div className={style.product__price__item}></div>
-              </div>
+                    <div className={style.product__price__content}>
+              <div className={style.product__price}>PRICE: {result}$ </div>
+                    </div>
                 </div>
             </div>
         </div>
